@@ -1,0 +1,20 @@
+{
+  "id": "novomatic_web_dev",
+  "type": "job",
+  "organization": {
+    "name": "Novomatic Technologies Poland",
+    "url": "https://novomatic-tech.com/"
+  },
+  "title": "Software Developer",
+  "from": 2005,
+  "to": 2011,
+  "description": "As a software developer I had a chance to join a team that was developing a new product in the associated company. My duties were focused on client side development. Over the time the product became quite successful and the team gets bigger. My role has changed to Team Leader during this period. One of our achievements was the introduction of software architecture that allowed much easier customization of the product. This solution significantly reduced time and cost of further integrations what was crucial for our B2B customers.",
+  "details": {
+    "title": "See key responsibilities",
+    "items": [
+      "Responsible for design and implementation of in-house, software framework to reduce development time of product family",
+      "Responsible for technical vision and architecture decisions",
+      "Coordination of software development team (web application)"
+    ]
+  }
+}

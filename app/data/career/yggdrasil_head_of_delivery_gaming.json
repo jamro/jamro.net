@@ -1,0 +1,24 @@
+
+{
+  "id": "yggdrasil_head_of_delivery",
+  "type": "job",
+  "organization": {
+    "name": "Yggdrasil Gaming",
+    "url": "https://yggdrasilgaming.com/"
+  },
+  "title": "Head of Delivery - Gaming",
+  "from": 2017,
+  "to": "now",
+  "details": {
+    "title": "See key responsibilities",
+    "items": [
+      "Setting and communicating the vision, mission and targets for Gaming Department",
+      "Creating right environment and working culture of entire department",
+      "Preparing project roadmaps for the department and making sure that there is enough capacity to deliver them",
+      "Negotiate scope and manage trade-offs for delivery decisions",
+      "Driving cross-departments projects",
+      "Ultimate responsibility for delivery agreed roadmaps (project tracking and planning)",
+      "Ultimate responsibility for the performance of the department"
+    ]
+  }
+}

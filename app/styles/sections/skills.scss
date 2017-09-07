@@ -1,0 +1,26 @@
+.progress {
+  position: relative;
+	height: 30px;
+  margin: 5px;
+  font-size: 14px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	padding: 5px 25px 5px 7px;
+	color: #ffffff;
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	padding: 5px 10px 5px;
+}
+
+.skill-management {
+  background-color: $jamro-dark;
+}
+
+.skill-technology {
+  background-color: $jamro-primary;
+}

@@ -1,0 +1,24 @@
+{
+  "id": "novomatic_head_of_ppm",
+  "type": "job",
+  "organization": {
+    "name": "Novomatic Technologies Poland",
+    "url": "https://novomatic-tech.com/"
+  },
+  "title": "Head of Project and Product Management",
+  "from": 2015,
+  "to": 2016,
+  "description": "As a Head of Product & Project Management Department, I was responsible for building and leading the team of IT Project Managers. Over the time, projects realized by the company became larger and more complex so some changes were required in order to adapt to new situation. I needed to adjust the scope of responsibilities in PM team and introduce a new structure. Some changes in the process were required as well to be sure that best managing practices are followed. I was also strongly involved into hiring process to increase the capacity of the overloaded team. Results of all those efforts allowed for keeping efficient realization of projects within the company.",
+  "details": {
+    "title": "See key responsibilities",
+    "items": [
+      "Development of Project Management team and hiring new team members",
+      "Promoting and introducing Agile principles across the company",
+      "Participate in making necessary decisions regarding staffing, process, procedures, and job duties for the Project Management Team",
+      "Introducing changes in structure and processes within the department to improve efficiency of the team",
+      "Ensure that all company project procedures are followed correctly at all times.",
+      "Supervising projects on various phases of SDLC",
+      "Act as point of contact for senior management, locally and globally"
+    ]
+  }
+}

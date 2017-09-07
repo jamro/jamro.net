@@ -1,0 +1,28 @@
+
+.navbar {
+  padding: 0px;
+  height: 50px;
+
+  .nav-link {
+    height: 50px;
+
+    span {
+      padding: 5px;
+      display: inline-block;
+    }
+
+  }
+
+  .nav-item {
+    background-color: $jamro-primary;
+  }
+
+  .active {
+    background-color: #ae3910;
+  }
+
+  .navbar-brand {
+    margin: auto 10px;
+  }
+
+}

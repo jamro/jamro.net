@@ -1,0 +1,53 @@
+.cert-view {
+  margin-top: -30px;
+
+  .card-body {
+    text-align: center;
+    background-color: #eeeeee;
+    min-height: 240px;
+    padding-top: 50px;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: auto;
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    float: right;
+  }
+
+  small {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+
+  $cert-icon-size: 90px;
+  .cert-icon {
+    position: relative;
+    text-align: center;
+    top: 25px;
+    z-index: 2;
+    div {
+      display: inline-block;
+      position: relative;
+      line-height: $cert-icon-size;
+      vertical-align: middle;
+      width: $cert-icon-size;
+      height: $cert-icon-size;
+      background-color: #000066;
+      color: $white;
+      border: 8px solid $white;
+      border-radius: 50%;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+  }
+}

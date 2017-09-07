@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cert_pmp",
+    "name": "Project Management Professional",
+    "date": "2011 - 2014",
+    "description": "PMI Project Management Professional credential is the most important industry-recognized certification for project managers. Globally recognized and demanded, the PMP demonstrates the experience, education and competency to lead and direct projects.",
+    "source": "Project Management Institute"
+  },
+  {
+    "id": "cert_psm",
+    "name": "Professional Scrum Master",
+    "date": "2014",
+    "description": "People who have passed PSM and achieved certification demonstrate an understanding of the Scrum framework. They exhibit a dedication to continued professional development and a high level of commitment to their field of practice.",
+    "source": "Scrum.org"
+  }
+]

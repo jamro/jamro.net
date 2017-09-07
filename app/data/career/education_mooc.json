@@ -1,0 +1,27 @@
+{
+  "id": "education_mooc",
+  "type": "education",
+  "organization": {
+    "name": "Coursera, edX, Udacity, Open2Study, ..."
+  },
+  "title": "Business and Management Online Courses",
+  "from": 2014,
+  "to": 2014,
+  "description": "To expand my business & management knowledge I decided to take a series online courses from worldwide recognized universities such as Yale or MIT. New competencies proved to be very useful during my day-to-day job what has improved my efficiency in the workplace.",
+  "details": {
+    "title": "See details",
+    "items": [
+      "Strategic Management at Open Training Institute",
+      "Competitive Strategy at LMU Munchen",
+      "Advanced Competitive Strategy at LMU Munchen",
+      "Negotiation and Conflict Resolution at MGSM",
+      "Introduction to Public Speaking at University of Washington",
+      "Entrepreneurship 101 at MIT",
+      "Financial Markets at Yale University",
+      "Diagnosing the Financial Health of a Business at MGSM",
+      "An Introduction to Marketing at University of Pennsylvania",
+      "How to Build a Startup by Steve Blank",
+      "Introduction to Enterprise Architecture"
+    ]
+  }
+}

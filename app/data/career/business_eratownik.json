@@ -1,0 +1,22 @@
+{
+  "id": "business_eratownik",
+  "type": "business",
+  "organization": {
+    "name": "www.e-ratownik.com.pl",
+    "url": "http://www.e-ratownik.com.pl"
+  },
+  "title": "Co-owner",
+  "from": 2012,
+  "to": 2015,
+  "description": "E-ratownik is a start-up that offers e-learning, legally recognized trainings for paramedics in Poland. As a co-owner I was supervising software development activities. Good understanding of SDLC and agile techniques allowed me to improve the efficiency of the team. I was also involved in product development. It was a good chance to apply knowledge gained during previous business & marketing courses. Listening of customer's feedback helped us to tweak the product and increase the sales by 15%.",
+  "details": {
+    "title": "See key responsibilities",
+    "items": [
+      "Identifying and exploiting new technologies in order to increase profits and marketability",
+      "Participating in creating of business strategy for the company",
+      "Responsible for products optimization to increase user acquisition and improve conversion rates",
+      "Establishing technical standards and ensuring adherence to them for product development",
+      "Introduction of agile techniques and lean product development approach"
+    ]
+  }
+}

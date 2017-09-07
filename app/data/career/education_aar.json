@@ -1,0 +1,18 @@
+{
+  "id": "education_aar",
+  "type": "education",
+  "organization": {
+    "name": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
+    "url": "http://www.agh.edu.pl/en/"
+  },
+  "title": "Automatics and Robotics",
+  "from": 2002,
+  "to": 2007,
+  "description": "Studies at University of Science and Technology in Krakow (AGH) teach me principles of engineering and software development. Acquired knowledge turned out to be a good basis for my further professional development.",
+  "details": {
+    "title": "See details",
+    "items": [
+      "C/C++, Java, PHP, UML, Web technologies, relational database, Design patterns, Unix/Linux, security of web applications, IT networks"
+    ]
+  }
+}

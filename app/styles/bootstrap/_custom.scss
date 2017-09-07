@@ -1,0 +1,23 @@
+$white:  #fff !default;
+
+$jamro-primary:         #E95420 !default;
+$jamro-secondary:       #38B44A !default;
+$jamro-success:         #38B44A !default;
+$jamro-info:            #0864CD !default;
+$jamro-warning:         #EFB73E !default;
+$jamro-danger:          #DF382C !default;
+$jamro-light:           #AEA79F !default;
+$jamro-dark:            #333333 !default;
+
+$theme-colors: (
+  primary: $jamro-primary,
+  secondary: $jamro-secondary,
+  success: $jamro-success,
+  info: $jamro-info,
+  warning: $jamro-warning,
+  danger: $jamro-danger,
+  light: $jamro-light,
+  dark: $jamro-dark
+) !default;
+
+$navbar-dark-color: rgba($white,1) !default;

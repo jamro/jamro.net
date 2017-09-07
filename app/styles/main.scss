@@ -1,0 +1,18 @@
+@import "./bootstrap/bootstrap";
+
+@import "./sections/navi";
+@import "./sections/title";
+@import "./sections/summary";
+@import "./sections/certs";
+@import "./sections/timeline";
+@import "./sections/strengths";
+@import "./sections/skills";
+@import "./sections/technology";
+@import "./sections/footer";
+@import "./icons";
+
+
+div.anchor {
+  top: -65px;
+  position: relative;
+}
