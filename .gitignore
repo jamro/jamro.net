@@ -60,10 +60,16 @@ typings/
 # Mac files
 .DS_Store
 
-#temporary files
+# temporary files
 /tmp
 /temp
 /.tmp
 
-#art
+# art
 /art
+
+# configuration
+/build/config.js
+
+# Distribution folder
+/dist

@@ -6,5 +6,5 @@ module.exports = {
   scripts: "app/scripts/",
   entry: "app/scripts/index.js",
   html: "app/index.html",
-  ga: "UA-106487850-1"
+  ga: "" // Google analytics code
 };

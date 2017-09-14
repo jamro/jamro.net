@@ -1,7 +1,14 @@
+import fs from 'fs';
 import gulp from 'gulp';
-import config from './build/config.js';
 import loadPlugins from 'gulp-load-plugins';
 const plugins = loadPlugins();
+
+if (!fs.existsSync('./build/config.js')) {
+  plugins.util.log(plugins.util.colors.red('WARN: Configuration file not found. Creating a defulat one at /build/config.js'));
+  let content = fs.readFileSync('./build/config-default.js', 'utf8');
+  fs.writeFileSync('./build/config.js', content);
+}
+let config = require('./build/config.js');
 
 config.devMode = !!plugins.util.env.dev;
 
