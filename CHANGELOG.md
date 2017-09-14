@@ -6,7 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Added
-- Google Analytics tracking
+- Google Analytics integration
+- Tracking scroll progress
 - This change log
 
 ## [1.0.0] - 2017-09-07

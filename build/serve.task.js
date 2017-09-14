@@ -1,7 +1,7 @@
 import browserSync from 'browser-sync';
 
 module.exports = ((gulp, config, plugins) => {
-  gulp.task('reload', ['build'], function (done) {
+  gulp.task('reload', ['prebuild'], function (done) {
     browserSync.reload();
     done();
   });
@@ -9,7 +9,9 @@ module.exports = ((gulp, config, plugins) => {
     browserSync.init({
       server: {
         baseDir: config.tmp + "dist/"
-      }
+      },
+      port: 8000,
+      ui: false
     });
     gulp.watch(config.app + "**/*", ['reload'])
   }
