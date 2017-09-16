@@ -1,7 +1,7 @@
 import browserSync from 'browser-sync';
 
 module.exports = ((gulp, config, plugins) => {
-  gulp.task('reload', ['prebuild'], function (done) {
+  gulp.task('reload', config.noDep ? null : ['prebuild'], function (done) {
     browserSync.reload();
     done();
   });

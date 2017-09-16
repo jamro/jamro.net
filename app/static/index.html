@@ -39,31 +39,31 @@
         script.src = scriptPath;
         document.head.appendChild(script);
       }
-      function onFileLoaded() {
+      function loadScriptFromQueue(queue) {
+        if(queue.length == 0) {
+          return;
+        }
         filesLeft -= 1;
         var progress = 1-filesLeft/filesTotal;
         rootElement.innerHTML = "<span id=\"preloader\">Loading... " + Math.round(100*progress) + "%</span>";
-        if(filesLeft == 1) {
-          loadScript('js/app.bundle.js', function() {});
-        }
+        loadScript(queue.shift(), function() {
+          loadScriptFromQueue(queue);
+        });
       }
 
       var rootElement = document.getElementById("app-root");
       rootElement.innerHTML = "<span id=\"preloader\">Loading...</span>";
       var libList = [
+        'js/manifest.js',
         'js/assets.bundle.js',
+        'js/vendor2.bundle.js',
         'js/vendor1.bundle.js',
-        'js/vendor2.bundle.js'
+        'js/app.bundle.js'
       ];
-      var filesTotal = libList.length + 2;
+      var filesTotal = libList.length;
       var filesLeft = filesTotal;
-      loadScript('js/manifest.js', function() {
-        onFileLoaded();
+      loadScriptFromQueue(libList);
 
-        for(var i in libList) {
-          loadScript(libList[i], onFileLoaded);
-        }
-      });
     </script>
   </body>
 </html>

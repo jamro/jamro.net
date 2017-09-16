@@ -1,16 +1,10 @@
-casper.options.viewportSize = {width: 1280, height: 1024};
+var helper = require('./helpers/helper.js');
+var config = require('./config/config.js');
+helper.setup(casper);
 
 casper.test.begin('Timeline entries works', function suite(test) {
-  casper.on("page.error", function(msg, trace) {
-    trace = trace.reduce(function(msg, point) {
-      if(point.file) {
-        point = point.file + ":" + point.line + " [in " + point.function + "()]"
-      }
-      return msg + JSON.stringify(point, null, 2) + "\n";
-    }, "");
-    test.fail("Page Error: " + msg + "\n" + trace, "ERROR");
-  });
-  casper.start("http://localhost:3001/");
+  helper.catchPageErrors(casper, test);
+  casper.start(config.url);
   casper.waitWhileVisible('#preloader');
   casper.then(function() {
     var entries = casper.getElementsAttribute('.timeline > li', 'class').length;

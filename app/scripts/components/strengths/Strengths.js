@@ -17,7 +17,7 @@ export default class Strengths extends React.Component {
   }
 
   render() {
-    return <div className="container">
+    return <div className="container strengths">
         <div className="row">
           <div className="col-12">
             <hr />

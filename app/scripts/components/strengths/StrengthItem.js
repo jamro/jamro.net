@@ -29,7 +29,7 @@ export default class StrengthItem extends React.Component {
                     <i className="ico ico-quote-left ico-3x float-right"></i>
                   </div>
                   <div className="col-10 text-left">
-                    <p>{this.props.description}</p>
+                    <p className="strength-details">{this.props.description}</p>
                     <p><small className="float-right">- {this.props.source}</small></p>
                   </div>
                 </div>

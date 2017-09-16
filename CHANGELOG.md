@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - faster loading - app size reduced about 20%
 - better caching - app split to multiple files
 
+### Fixed
+- Order of files loading is deterministic and thus always correct
+
 ## [1.0.1] - 2017-09-14
 ### Added
 - Google Analytics integration

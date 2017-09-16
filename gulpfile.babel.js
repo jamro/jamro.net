@@ -11,6 +11,7 @@ if (!fs.existsSync('./build/config.js')) {
 let config = require('./build/config.js');
 
 config.devMode = !!plugins.util.env.dev;
+config.noDep = !!plugins.util.env.nodep;
 
 if(config.devMode) {
   plugins.util.log("MODE:", plugins.util.colors.red('DEVELOPMENT'));
@@ -20,10 +21,10 @@ if(config.devMode) {
 }
 
 gulp.task('clean', require('./build/clean.task.js')(gulp, config, plugins));
-gulp.task('webpack', ['clean'], require('./build/webpack.task.js')(gulp, config, plugins));
-gulp.task('html', ['clean'], require('./build/html.task.js')(gulp, config, plugins));
-gulp.task('serve', ['webpack', 'html'], require('./build/serve.task.js')(gulp, config, plugins));
-gulp.task('test', ['webpack', 'html'], require('./build/test.task.js')(gulp, config, plugins));
+gulp.task('webpack', config.noDep ? null : ['clean'], require('./build/webpack.task.js')(gulp, config, plugins));
+gulp.task('html', config.noDep ? null : ['clean'], require('./build/html.task.js')(gulp, config, plugins));
+gulp.task('serve', config.noDep ? null : ['webpack', 'html'], require('./build/serve.task.js')(gulp, config, plugins));
+gulp.task('test', config.noDep ? null : ['webpack', 'html'], require('./build/test.task.js')(gulp, config, plugins));
 gulp.task('lint', require('./build/lint.task.js')(gulp, config, plugins));
 gulp.task('copy', require('./build/copy.task.js')(gulp, config, plugins));
 
