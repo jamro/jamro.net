@@ -1,4 +1,5 @@
 /* global gtag */
+// casperjs need it
 import 'babel-polyfill';
 import 'bootstrap';
 import '../styles/main.scss';
