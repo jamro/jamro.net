@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - robots.txt added (allow all robots)
+- tests of strengths section
 
 ### Changed
 - faster loading - app size reduced about 20%
