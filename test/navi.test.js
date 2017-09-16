@@ -12,7 +12,7 @@ casper.test.begin('Navigation links work', function suite(test) {
   });
   casper.start("http://localhost:3001/");
   casper.waitWhileVisible('#preloader');
-  casper.wait(100);
+  casper.wait(1000);
   casper.then(function() {
     test.assertElementCount('nav li.nav-item a.nav-link', 4, "There is 4 links in the navbar");
     test.assertSelectorHasText('nav li.nav-item:nth-of-type(1) a.nav-link', "Summary", '1st link is the Summary')
