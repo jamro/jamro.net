@@ -5,7 +5,7 @@ helper.setup(casper);
 casper.test.begin('The page is loaded', function suite(test) {
   helper.catchPageErrors(casper, test);
   casper.start(config.url, function() {
-    test.assertTitle("Krzysztof Jamróz: about me", "Homepage title is the one expected");
+    test.assertTitle("Krzysztof Jamróz - Head of Software Development Department", "Homepage title is the one expected");
   });
   casper.waitWhileVisible('#preloader');
   casper.then(function() {

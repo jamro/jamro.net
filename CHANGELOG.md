@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - faster loading - app size reduced about 20%
 - better caching - app split to multiple files
+- SEO related improvements
 
 ### Fixed
 - Order of files loading is deterministic and thus always correct
