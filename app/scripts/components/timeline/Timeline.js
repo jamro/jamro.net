@@ -2,6 +2,7 @@ import React from 'react';
 import TimelineEntry from './TimelineEntry.js';
 import CareerGraphContainer from './CareerGraphContainer.js';
 
+import symphony_dev_manager from '../../../data/career/symphony_dev_manager.json';
 import yggdrasil_head_of_delivery_gaming from '../../../data/career/yggdrasil_head_of_delivery_gaming.json';
 import novomatic_head_of_technology_department from '../../../data/career/novomatic_head_of_technology_department.json';
 import education_mba from '../../../data/career/education_mba.json';
@@ -23,6 +24,7 @@ export default class Timeline extends React.Component {
   constructor(props) {
     super(props);
     this.data = [];
+    this.data.push(symphony_dev_manager);
     this.data.push(yggdrasil_head_of_delivery_gaming);
     this.data.push(novomatic_head_of_technology_department);
     this.data.push(education_mba);
