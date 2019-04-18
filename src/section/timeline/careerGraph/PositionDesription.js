@@ -45,7 +45,7 @@ export default class PositionDesription {
         color2 = {r: 183, g:192, b: 0};
         break;
     }
-    console.log(this.type);
+
     color.r = Math.round((1-progress)*color1.r + progress*color2.r).toString(16);
     color.g = Math.round((1-progress)*color1.g + progress*color2.g).toString(16);
     color.b = Math.round((1-progress)*color1.b + progress*color2.b).toString(16);
