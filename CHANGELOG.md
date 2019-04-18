@@ -7,8 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Changed
 - replace gulp by NPM scripts
-- update of Scientific Games/Symphony Solution role
 - generate static HTML for better SEO
+- update of summary section
+- update of Scientific Games/Symphony Solution role
 
 # Removed
 - remove ReactJS dependency
