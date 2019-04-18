@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - generate static HTML for better SEO
 - update of summary section
 - update of Scientific Games/Symphony Solution role
+- update technologies cloud
 
 # Removed
 - remove ReactJS dependency
