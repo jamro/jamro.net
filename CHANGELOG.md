@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - update of Scientific Games/Symphony Solution role
 - update technologies cloud
 - update skills
+- generate colors of timeline automatically
 
 # Removed
 - remove ReactJS dependency

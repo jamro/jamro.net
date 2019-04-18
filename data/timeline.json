@@ -2,6 +2,7 @@
   "timeline": [
     {
       "id": "education_aar",
+      "type": "education",
       "color": "#0B9BFF",
       "axis": -1,
       "label" : {
@@ -81,6 +82,7 @@
     },
     {
       "id": "education_se",
+      "type": "education",
       "color": "#0983e9",
       "axis": -1,
       "label" : {
@@ -122,6 +124,7 @@
     },
     {
       "id": "education_pm",
+      "type": "education",
       "color": "#0864cd",
       "axis": -1,
       "label" : {
@@ -155,6 +158,7 @@
     },
     {
       "id": "cert_pmp",
+      "type": "education",
       "color": "#043da8",
       "axis": -1,
       "label" : {
@@ -184,6 +188,7 @@
     },
     {
       "id": "education_mooc",
+      "type": "education",
       "color": "#032492",
       "axis": -1,
       "label" : {
@@ -217,6 +222,7 @@
     },
     {
       "id": "cert_psm",
+      "type": "education",
       "color": "#020f7e",
       "axis": -1,
       "label" : {
@@ -242,6 +248,7 @@
     },
     {
       "id": "education_mba",
+      "type": "education",
       "color": "#000070",
       "axis": -1,
       "label" : {
@@ -287,6 +294,7 @@
     },
     {
       "id": "freelancer",
+      "type": "job",
       "color": "#FF9F11",
       "axis": 1,
       "label" : {
@@ -348,6 +356,7 @@
     },
     {
       "id": "novomatic_web_dev",
+      "type": "job",
       "color": "#e77a0d",
       "axis": 1,
       "label" : {
@@ -437,6 +446,7 @@
     },
     {
       "id": "novomatic_it_pm",
+      "type": "job",
       "color": "#be3a06",
       "axis": 1,
       "label" : {
@@ -493,6 +503,7 @@
     },
     {
       "id": "novomatic_executive_manager",
+      "type": "job",
       "color": "#ad1e03",
       "axis": 1,
       "label" : {
@@ -538,6 +549,7 @@
     },
     {
       "id": "novomatic_head_of_pmo",
+      "type": "job",
       "color": "#a30f01",
       "axis": 1,
       "workload": {
@@ -559,6 +571,7 @@
     },
     {
       "id": "novomatic_head_of_ppm",
+      "type": "job",
       "color": "#9f0800",
       "axis": 1,
       "label" : {
@@ -597,6 +610,7 @@
     },
     {
       "id": "novomatic_head_of_tech",
+      "type": "job",
       "color": "#8d0000",
       "axis": 1,
       "label" : {
@@ -632,6 +646,7 @@
     },
     {
       "id": "yggdrasil_head_of_delivery",
+      "type": "job",
       "color": "#6d0000",
       "axis": 1,
       "label" : {
@@ -672,6 +687,7 @@
     },
     {
       "id": "sgd_dev_manager",
+      "type": "job",
       "color": "#4d0000",
       "axis": 1,
       "workload": {
@@ -689,6 +705,7 @@
     },
     {
       "id": "business_limexgames",
+      "type": "business",
       "color": "#bce800",
       "axis": 1,
       "label" : {
@@ -756,6 +773,7 @@
     },
     {
       "id": "business_eratownik",
+      "type": "business",
       "color": "#b7c001",
       "axis": 1,
       "label" : {

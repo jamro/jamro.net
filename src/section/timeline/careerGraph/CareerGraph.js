@@ -43,9 +43,7 @@ export default class CareerGraph {
       this.from = null;
       this.to = null;
     }
-    var description = new PositionDesription();
-    description.id = dataJson.id;
-    description.color = dataJson.color;
+    var description = new PositionDesription(dataJson.id, dataJson.type);
     description.axis = dataJson.axis;
     if(dataJson.label) {
       description.hasLabel = true;

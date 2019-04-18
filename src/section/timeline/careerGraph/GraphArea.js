@@ -60,7 +60,7 @@ export default class CareerGraph {
     this.svg
       .link('#' + this.data.id)
       .polygon(points)
-      .fill(this.data.color)
+      .fill(this.data.getColor())
       .stroke({ width: this.strokeWidth, color: '#fff' });
   }
 }
