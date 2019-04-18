@@ -1,0 +1,34 @@
+{
+  "badges": [
+    {
+      "name": "certified",
+      "description": "Received recognized certificates",
+      "iconPosition": "0px -196px"
+    },
+    {
+      "name": "promoted",
+      "description": "Received promotions within an organization",
+      "iconPosition": "-98px 98px"
+    },
+    {
+      "name": "degreed",
+      "description": "Earned MSc and MBA degrees",
+      "iconPosition": "-98px 0px"
+    },
+    {
+      "name": "connected",
+      "description": "Networked with other professionals",
+      "iconPosition": "-98px -98px"
+    },
+    {
+      "name": "recommended",
+      "description": "Endorsed by co-workers",
+      "iconPosition": "0px -98px"
+    },
+    {
+      "name": "supervisor",
+      "description": "Managing software development teams",
+      "iconPosition": "0px 0px"
+    }
+  ]
+}

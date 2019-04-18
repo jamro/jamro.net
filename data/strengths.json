@@ -1,0 +1,41 @@
+{
+  "strengths": [
+    {
+      "name":"Achiever",
+      "category": "Executing",
+      "icon": "fas fa-bullseye",
+      "description": "People exceptionally talented in the achiever theme work hard and possess a great deal of stamina. They take immense satisfaction in being busy and productive.",
+      "source": "Gallup Strengths Center"
+    }, {
+      "name":"Responsibility",
+      "category": "Executing",
+      "icon": "fas fa-users",
+      "description": "People exceptionally talented in the responsibility theme take psychological ownership of what they say they will do. They are committed to stable values such as honesty and loyalty.",
+      "source": "Gallup Strengths Center"
+    }, {
+      "name":"Restorative",
+      "category": "Executing",
+      "icon": "fas fa-chart-line",
+      "description": "People exceptionally talented in the restorative theme are adept at dealing with problems. They are good at figuring out what is wrong and resolving it.",
+      "source": "Gallup Strengths Center"
+    }, {
+      "name":"Learner",
+      "category": "Strategic",
+      "icon": "fas fa-book",
+      "description": "People exceptionally talented in the learner theme have a great desire to learn and want to continuously improve. The process of learning, rather than the outcome, excites them.",
+      "source": "Gallup Strengths Center"
+    }, {
+      "name":"Analytical",
+      "category": "Strategic",
+      "icon": "fas fa-cogs",
+      "description": "People exceptionally talented in the analytical theme search for reasons and causes. They have the ability to think about all the factors that might affect a situation.",
+      "source": "Gallup Strengths Center"
+    }, {
+      "name":"Individualization",
+      "category": "Relationship",
+      "icon": "far fa-eye",
+      "description": "People exceptionally talented in the individualization theme are intrigued with the unique qualities of each person. They have a gift for figuring out how different people can work together productively.",
+      "source": "Gallup Strengths Center"
+    }
+  ]
+}

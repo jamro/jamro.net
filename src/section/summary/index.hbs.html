@@ -1,0 +1,29 @@
+<div class="container summary">
+    <div class="row">
+      <div class="col-lg-4 col-md-5">
+        <div class="me"><img src="./img/me.png" alt="Photo of {{ summary.name }}"/></div>
+        <blockquote>
+          <p>
+            <i class="fas fa-globe-europe"></i> {{ summary.location }}
+          </p>
+          <p>
+            <i class="fas fa-birthday-cake"></i> {{ summary.dateOfBirth }}
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i> <a href="mailto:{{ summary.email }}"> {{ summary.email }}</a>
+          </p>
+          <p class="d-print-block">
+            <i class="fab fa-linkedin"></i> <a href={{ summary.url.linkedin }} target="_blank"> {{shorturl summary.url.linkedin }}</a>
+          </p>
+          <p class="d-print-block">
+            <i class="fab fa-github"></i> <a href={{ summary.url.github }} target="_blank"> {{shorturl summary.url.github }}</a>
+          </p>
+        </blockquote>
+      </div>
+        <div class="col-lg-8 col-md-7" style="padding-top: 100px">
+          <h2>Summary</h2>
+          <p><em>{{ summary.bio }}</em></p>
+        </div>
+    </div>
+    <hr/>
+  </div>

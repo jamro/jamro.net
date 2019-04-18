@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.ga }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ config.ga }}');
+    </script>
+    <title>{{ summary.name }} - {{ summary.title }}</title>
+    {{> meta.hbs.html }}
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="jmr-loader">
+      <div id="jmr-loading-bar"></div>
+      <small id="jmr-loading-msg" style="padding: 3px">Loading...</small>
+    </div>
+    <div id="jmr-content" style="display: none">
+      {{> navi.hbs.html }}
+      {{> ../../section/headline/index.hbs.html }}
+      <div class="anchor" id="summary-section"></div>
+      {{> ../../section/summary/index.hbs.html }}
+      {{> ../../section/seek/index.hbs.html }}
+      <div class="anchor" id="certs-section"></div>
+      {{> ../../section/certs/index.hbs.html }}
+      <div class="anchor" id="career-section"></div>
+      {{> ../../section/timeline/index.hbs.html }}
+      <div class="anchor" id="skills-section"></div>
+      {{> ../../section/strengths/index.hbs.html }}
+      {{> ../../section/skills/index.hbs.html }}
+      {{> ../../section/technologies/index.hbs.html }}
+      {{> ../../section/footer/index.hbs.html }}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.strength-item {
+  text-align: center;
+  margin-bottom: 50px;
+
+  h3 {
+    font-size: 20px;
+  }
+  small {
+    color: #aeaeae;
+    font-size: 14px;
+  }
+
+
+  i.strength-symbol {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 3.5em;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+}
+
+.strengths h2 {
+  margin-bottom: 30px;
+}

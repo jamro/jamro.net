@@ -1,0 +1,30 @@
+<div class="container">
+  <hr/>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Certificates</h2>
+    </div>
+  </div>
+  <div class="row">
+    {{#each certificates}}
+      <div class="col-lg-6 col-sm-12 cert-view">
+        <div class="anchor" id="{{ this.id }}"></div>
+        <div class="cert-icon">
+          <div>
+            <i class="far fa-thumbs-up" style="font-size: 2.5em"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>{{ this.name }}</h3>
+            <small><i class="far fa-clock"></i> {{ this.date }}</small>
+            <div>
+              <p>{{ this.description }}</p>
+              <footer class="blockquote-footer"><cite title="{{ this.source }}">{{ this.source }}</cite></footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

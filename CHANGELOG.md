@@ -5,10 +5,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- replace gulp by NPM scripts
+- update of Scientific Games/Symphony Solution role
+- generate static HTML for better SEO
+
+# Removed
+- remove ReactJS dependency
+
+### Added
+- Timeline extended to 2019 Q1
 
 ## [1.0.3] - 2018-03-17
 ### Added
-- Timeline extended to 2018 Q1
+- Timeline extended to 2018 Q4
 - Update of job Description (2017/2018)
 
 ### Changed

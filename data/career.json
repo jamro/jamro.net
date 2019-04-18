@@ -1,0 +1,371 @@
+{
+  "career": [
+    {
+      "id": "sgd_dev_manager",
+      "type": "job",
+      "organization": {
+        "name": "Scientific Games",
+        "url": "https://www.scientificgames.com/"
+      },
+      "title": "Senior Development Manager",
+      "from": 2018,
+      "to": "2019",
+      "description": "",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Shaping software engineering practices and processes",
+          "Motivating and driving development teams with technical leadership and vision",
+          "Supporting recruitment of technical staff",
+          "Alignment with senior stakeholders in the organisation"
+        ]
+      }
+    },
+    {
+      "id": "yggdrasil_head_of_delivery",
+      "type": "job",
+      "organization": {
+        "name": "Yggdrasil Gaming",
+        "url": "https://yggdrasilgaming.com/"
+      },
+      "title": "Head of Delivery - Gaming",
+      "from": 2017,
+      "to": 2018,
+      "description": "When I was joining Yggdrasil, it was a small, rapidly growing start-up. As Head of Delivery, I was responsible for development and delivery of games for online casinos. During the first year, we have doubled the number of people within Gaming Department and built several teams in different geographical locations. The biggest challenges that I had been focusing on were scaling the structure up, maintaining the start-up culture of the company and ensuring that ambitious business needs can be addressed by software development teams.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Setting and communicating the vision, mission and targets for Gaming Department",
+          "Creating right environment and working culture of entire department",
+          "Preparing project roadmaps for the department and making sure that there is enough capacity to deliver them",
+          "Negotiate scope and manage trade-offs for delivery decisions",
+          "Driving cross-departments projects",
+          "Ultimate responsibility for delivery agreed roadmaps (project tracking and planning)",
+          "Ultimate responsibility for the performance of the department"
+        ]
+      }
+    },
+    {
+      "id": "novomatic_head_of_tech",
+      "type": "job",
+      "organization": {
+        "name": "Novomatic Technologies Poland",
+        "url": "https://novomatic-tech.com/"
+      },
+      "title": "Head of Technology Department",
+      "from": 2016,
+      "to": 2017,
+      "description": "Technology Department which I was responsible for, consisted of over 50 professionals specialized in various areas. The vast majority of them were software developers (Java, .Net, C++, Ruby, JavaScript). However, there were also other professions such as Quality Engineers, UX and Graphic Designers. Products developed within the department were also differentiated and covered among others: web applications, embedded systems and games. My job, as the Head of the Department, was to make sure that despite such variety, all teams are working efficiently and following best engineering practices.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Managing Software Development Department (50+ employees)",
+          "Contribute to the overall technology strategy of the company",
+          "Leading, mentoring and growing engineering teams",
+          "Establishing and maintaining solid software engineering practices (e.g. Continuous Delivery, Lean Software Development)",
+          "Ensuring highest quality of developed software",
+          "Continuously improving performance of teams",
+          "Managing internal R&D projects (e.g. Game Framework Development)"
+        ]
+      }
+    },
+    {
+      "id": "education_mba",
+      "type": "education",
+      "organization": {
+        "name": "Cracow University of Economics",
+        "url": "http://www.uek.krakow.pl/en"
+      },
+      "title": "Executive Master of Business Administration",
+      "from": 2015,
+      "to": 2017,
+      "description": "To improve my management skills and increase knowledge about business aspects, I have enrolled to Executive MBA. The goal was to complement my technical competencies with a good understanding of entrepreneurial practices. Such combination of skills allows me to efficiently bridge the gap between business and IT.",
+      "details": {
+        "title": "See details",
+        "items": [
+          "Strategic Planning",
+          "Financial Analysis",
+          "Leadership and Change Management",
+          "International Business Negotiation",
+          "Business Law",
+          "Managing and Developing Human Capital",
+          "Managerial Accounting",
+          "International Marketing",
+          "International Corporate Finance",
+          "Managerial Economics"
+        ]
+      }
+    },
+    {
+      "id": "novomatic_head_of_ppm",
+      "type": "job",
+      "organization": {
+        "name": "Novomatic Technologies Poland",
+        "url": "https://novomatic-tech.com/"
+      },
+      "title": "Head of Project and Product Management",
+      "from": 2015,
+      "to": 2016,
+      "description": "As a Head of Product & Project Management Department, I was responsible for building and leading the team of IT Project Managers. Over the time, projects realized by the company became larger and more complex so some changes were required in order to adapt to new situation. I needed to adjust the scope of responsibilities in PM team and introduce a new structure. Some changes in the process were required as well to be sure that best managing practices are followed. I was also strongly involved into hiring process to increase the capacity of the overloaded team. Results of all those efforts allowed for keeping efficient realization of projects within the company.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Development of Project Management team and hiring new team members",
+          "Promoting and introducing Agile principles across the company",
+          "Participate in making necessary decisions regarding staffing, process, procedures, and job duties for the Project Management Team",
+          "Introducing changes in structure and processes within the department to improve efficiency of the team",
+          "Ensure that all company project procedures are followed correctly at all times.",
+          "Supervising projects on various phases of SDLC",
+          "Act as point of contact for senior management, locally and globally"
+        ]
+      }
+    },
+    {
+      "id": "novomatic_head_of_pmo",
+      "type": "job",
+      "organization": {
+        "name": "Novomatic Technologies Poland",
+        "url": "https://novomatic-tech.com/"
+      },
+      "title": "Head of Project Management Office",
+      "from": 2015,
+      "to": 2015,
+      "description": "To improve transparency, consistency and quality of Project Management, a PMO department was created within the company. My role, as head of this entity was to improve internal processes of the enterprise and make sure that best practices are applied. The main goal was to provide information and control that are required on portfolio management level but at the same time keep development teams agile and productive working in Scrum or Kanban. To make it possible this job required close cooperation and a good understanding of all involved stakeholders (C-level Managers, Project Managers and Development Teams).",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Assesses and improves project management processes",
+          "Standardizes project management practices throughout the company",
+          "Gathering data about project progress and status",
+          "Improving communication so that senior executives and stakeholders know project status"
+        ]
+      }
+    },
+    {
+      "id": "education_mooc",
+      "type": "education",
+      "organization": {
+        "name": "Coursera, edX, Udacity, Open2Study, ..."
+      },
+      "title": "Business and Management Online Courses",
+      "from": 2014,
+      "to": 2014,
+      "description": "To expand my business & management knowledge I decided to take a series online courses from worldwide recognized universities such as Yale or MIT. New competencies proved to be very useful during my day-to-day job what has improved my efficiency in the workplace.",
+      "details": {
+        "title": "See details",
+        "items": [
+          "Strategic Management at Open Training Institute",
+          "Competitive Strategy at LMU Munchen",
+          "Advanced Competitive Strategy at LMU Munchen",
+          "Negotiation and Conflict Resolution at MGSM",
+          "Introduction to Public Speaking at University of Washington",
+          "Entrepreneurship 101 at MIT",
+          "Financial Markets at Yale University",
+          "Diagnosing the Financial Health of a Business at MGSM",
+          "An Introduction to Marketing at University of Pennsylvania",
+          "How to Build a Startup by Steve Blank",
+          "Introduction to Enterprise Architecture"
+        ]
+      }
+    },
+    {
+      "id": "novomatic_executive_manager",
+      "type": "job",
+      "organization": {
+        "name": "Novomatic Technologies Poland",
+        "url": "https://novomatic-tech.com/"
+      },
+      "title": "Executive Manager - Enterprise Architecture",
+      "from": 2013,
+      "to": 2014,
+      "description": "When the company was growing (reaching 300 employees), its internal structure and processes must be adjusted to the new scale. As an Executive Manager, I was responsible for developing architecture capabilities of the enterprise. Together with the team I was planning and introducing changes that covered organization structure, internal processes as well as the architecture of systems under development. The implementation has brought tangible benefits in terms of improved communication, higher staff skills, improved system's architecture and more focus on long term planning.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Defining the strategy for systems development within the company",
+          "Work with business and IT stakeholders to align architecture vision with business goals",
+          "Coordinating technical aspects of projects carried out across the company (300 employees)",
+          "Introducing standards and guidelines related to architecture governance",
+          "Developing architecture capabilities of the company",
+          "Supervising key R&D projects"
+        ]
+      }
+    },
+    {
+      "id": "business_eratownik",
+      "type": "business",
+      "organization": {
+        "name": "www.e-ratownik.com.pl",
+        "url": "http://www.e-ratownik.com.pl"
+      },
+      "title": "Co-owner",
+      "from": 2012,
+      "to": 2015,
+      "description": "E-ratownik is a start-up that offers e-learning, legally recognized trainings for paramedics in Poland. As a co-owner I was supervising software development activities. Good understanding of SDLC and agile techniques allowed me to improve the efficiency of the team. I was also involved in product development. It was a good chance to apply knowledge gained during previous business & marketing courses. Listening of customer's feedback helped us to tweak the product and increase the sales by 15%.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Identifying and exploiting new technologies in order to increase profits and marketability",
+          "Participating in creating of business strategy for the company",
+          "Responsible for products optimization to increase user acquisition and improve conversion rates",
+          "Establishing technical standards and ensuring adherence to them for product development",
+          "Introduction of agile techniques and lean product development approach"
+        ]
+      }
+    },
+    {
+      "id": "novomatic_it_pm",
+      "type": "job",
+      "organization": {
+        "name": "Novomatic Technologies Poland",
+        "url": "https://novomatic-tech.com/"
+      },
+      "title": "IT Project Manager",
+      "from": 2011,
+      "to": 2013,
+      "description": "In PM role I was responsible for carrying out projects related to one product's family. I got also an opportunity to participate in long-term strategic planning and development of products' vision. During realization of projects, it was crucial to meet requirements of different B2B customers but at the same time align those short term activities to strategic plan. At the end, the effort and comprehensive approach paid off leading to introduce the product to a new market segment.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Managing of IT projects related to development of online gaming platform",
+          "Responsible for setting out a long-term vision of product family developed during realized projects",
+          "Requirements gathering and analysis (B2B projects for international customers)",
+          "Time and budget management (6 - 12 months projects)",
+          "Human Resources Management (25+ members of project team)",
+          "Communication Management",
+          "Quality Management",
+          "Risk Management",
+          "Using PMBOK or agile (SCRUM and Kanban) approach depending on project needs"
+        ]
+      }
+    },
+    {
+      "id": "business_limexgames",
+      "type": "business",
+      "organization": {
+        "name": "Limex Games"
+      },
+      "title": "Founder",
+      "from": 2009,
+      "to": 2013,
+      "description": "Passion for technology and constant desire to learn new things led me to spend some free time on developing casual games. After a few months, my hobby turned into a well-working business. My role also has changed over the time from the developer to the manager what was complementary to my full-time job. Limex Games has released 12 casual games for mobiles and the web. All titles were played over 100 000 000 times worldwide and they were featured on top portals like Google Chrome WebStore, Kongregate or ArmorGames",
+      "details": {
+        "title": "See details",
+        "items": [
+          "Founder of independent, game development studio",
+          "Casual games for the web and mobile devices",
+          "Responsible for whole product life cycle (from the idea, through development, to the release, marketing, sales, etc...)",
+          "12 game titles released (100M game plays worldwide)"
+        ]
+      }
+    },
+    {
+      "id": "novomatic_web_dev",
+      "type": "job",
+      "organization": {
+        "name": "Novomatic Technologies Poland",
+        "url": "https://novomatic-tech.com/"
+      },
+      "title": "Software Developer",
+      "from": 2005,
+      "to": 2011,
+      "description": "As a software developer I had a chance to join a team that was developing a new product in the associated company. My duties were focused on client side development. Over the time the product became quite successful and the team gets bigger. My role has changed to Team Leader during this period. One of our achievements was the introduction of software architecture that allowed much easier customization of the product. This solution significantly reduced time and cost of further integrations what was crucial for our B2B customers.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Responsible for design and implementation of in-house, software framework to reduce development time of product family",
+          "Responsible for technical vision and architecture decisions",
+          "Coordination of software development team (web application)"
+        ]
+      }
+    },
+    {
+      "id": "education_pm",
+      "type": "education",
+      "organization": {
+        "name": "Tischner European University",
+        "url": "http://www.wse.krakow.pl/en/"
+      },
+      "title": "School of Project Management",
+      "from": 2007,
+      "to": 2008,
+      "description": "The curiosity of wider context of software development prompted me to enroll PM studies. It was a great opportunity to learn from experienced professionals principles of Project Management. Acquired skills turned out to be very useful during my future career.",
+      "details": {
+        "title": "See details",
+        "items": [
+          "Integration Management",
+          "Scope Management",
+          "Time Management",
+          "Cost Management",
+          "Quality Management",
+          "Human Resources Management",
+          "Communication Management",
+          "Risk Management",
+          "Procurement Management"
+        ]
+      }
+    },
+    {
+      "id": "education_se",
+      "type": "education",
+      "organization": {
+        "name": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
+        "url": "http://www.agh.edu.pl/en/"
+      },
+      "title": "Software Engineering",
+      "from": 2006,
+      "to": 2008,
+      "description": "Software Engineering studies allowed me to expand my knowledge in this area. The fact that I could immediately apply new knowledge at my work allowed me to utilize it fully.",
+      "details": {
+        "title": "See details",
+        "items": [
+          "IT project management",
+          "Requirements management",
+          "UML",
+          "Design patterns",
+          "Web technologies",
+          "UNIX/LINUX",
+          "Databases"
+        ]
+      }
+    },
+    {
+      "id": "freelancer",
+      "type": "job",
+      "organization": {
+        "name": "Freelancer"
+      },
+      "title": "Software Developer",
+      "from": 2003,
+      "to": 2005,
+      "description": "As a freelancer, I was realizing mostly small, web related projects for various international customers. It was a great experience that increased both: my technical and soft skills. During the time, projects were getting bigger and at some stage, I was coordinating work of a small development team.",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Web development (PHP, MySQL, JavaScript, HTML)",
+          "Adobe Flash applications (Action Script 3.0)",
+          "Graphic design (layouts, photomontages)",
+          "Coordination of small, software development team"
+        ]
+      }
+    },
+    {
+      "id": "education_aar",
+      "type": "education",
+      "organization": {
+        "name": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
+        "url": "http://www.agh.edu.pl/en/"
+      },
+      "title": "Automatics and Robotics",
+      "from": 2002,
+      "to": 2007,
+      "description": "Studies at University of Science and Technology in Krakow (AGH) teach me principles of engineering and software development. Acquired knowledge turned out to be a good basis for my further professional development.",
+      "details": {
+        "title": "See details",
+        "items": [
+          "C/C++, Java, PHP, UML, Web technologies, relational database, Design patterns, Unix/Linux, security of web applications, IT networks"
+        ]
+      }
+    }
+  ]
+}

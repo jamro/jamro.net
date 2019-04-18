@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Skills &amp; Experience</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{#each skills}}
+      <div class="col-12">
+        <div class="progress">
+          <div class="progress-bar skill-{{ this.type }}" role="progressbar" aria-valuenow={{skillbar 'percentage'}} aria-valuemin="0" aria-valuemax="100" style="width: {{skillbar 'percentage'}}%">
+            <span class="sr-only"></span>
+          </div>
+          <span class="progress-type">{{ this.name }}</span>
+          <span class="progress-completed">{{skillbar 'duration'}} years</span>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>

@@ -1,0 +1,40 @@
+$badge-size: 98px;
+$shadow-color: #000000;
+$shadow-blur: 2;
+
+.title {
+  background-image: url("../../../assets/bg.jpg");
+  background-attachment:fixed;
+  background-position: top;
+  background-color: #000000;
+  background-repeat: repeat-x;
+  color: #ffffff;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  h1 {
+    font-weight: bold;
+    text-shadow: 0px 0px 15px #000000;
+  }
+}
+
+.badge-list {
+  display: block;
+  padding-top: 50px;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.carreer-badge {
+  display: block;
+  width: $badge-size;
+  height: $badge-size;
+  margin: 10px;
+  background-image: url("../../../assets/badges.png");
+
+  &:hover, &:active, &:visited, &:link {
+    text-decoration: none;
+  }
+}

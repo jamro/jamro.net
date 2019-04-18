@@ -1,0 +1,54 @@
+<div class="container" style="margin-top: 50px">
+  <div class="row">
+    <div class="col-12">
+      <h2>Career &amp; Education Timeline</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div id="career-graph" class="career-graph"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <ul class="timeline">
+        {{#each career}}
+          <li class="{{timeline 'className'}}">
+          <div class="anchor" id="{{ this.id }}"></div>
+            <div class="timeline-badge" style="{{timeline 'badgeStyle'}}"><i class="fas fa-{{timeline 'icon'}}"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">{{this.title}}</h4>
+                <p>
+                {{#if this.organization.url}}
+                  <a href={{this.organization.url}} class="organization" target="_blank">{{this.organization.name}}</a>
+                {{else}}
+                  {{#if this.organization.name}}
+                    <span class="organization">{{this.organization.name}}</span>
+                  {{/if}}
+                {{/if}}
+                <br/>
+                <small class="text-muted"><i class="far fa-clock"></i> {{timeline 'dates'}}</small></p>
+              </div>
+              <div class="timeline-body">
+                <p>{{this.description}}</p>
+                {{#if this.details}}
+                  <br/>
+                  <a href="javascript:void(0)" class="details-link" id="details-link-{{ this.id }}">
+                    {{ this.details.title }}
+                    <i id="details-link-{{ this.id }}-icon" class="fas fa-caret-right"></i>
+                  </a>
+                  <ul id="details-link-{{ this.id }}-content" style="display: none">
+                    {{#each this.details.items}}
+                      <li>{{ this }}</li>
+                    {{/each}}
+                  </ul>
+                {{/if}}
+              </div>
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
