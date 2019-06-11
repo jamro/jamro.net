@@ -19,8 +19,7 @@
       "type": "management"
     }, {
       "name": "Enterprise Systems",
-      "from": 2007,
-      "to": 2017,
+      "from": 2008,
       "type": "technology"
     }, {
       "name": "Cross-cultural Communication",
@@ -50,6 +49,10 @@
       "from": 2012,
       "type": "management"
     }, {
+      "name": "Cloud Technologies",
+      "from": 2012,
+      "type": "technology"
+    }, {
       "name": "Change Management",
       "from": 2013,
       "type": "management"
@@ -68,15 +71,15 @@
       "to": 2014,
       "type": "management"
     }, {
+      "name": "Process Optimization",
+      "from": 2013,
+      "to": 2017,
+      "type": "management"
+    }, {
       "name": "Enterprise Architecture",
       "from": 2012,
       "to": 2015,
       "type": "technology"
-    }, {
-      "name": "Process Optimization",
-      "from": 2013,
-      "to": 2015,
-      "type": "management"
     }
   ]
 }

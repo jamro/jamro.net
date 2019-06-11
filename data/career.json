@@ -1,6 +1,28 @@
 {
   "career": [
     {
+      "id": "guidewire_eng_director",
+      "type": "job",
+      "organization": {
+        "name": "Guidewire Software",
+        "url": "https://www.guidewire.com/"
+      },
+      "title": "Engineering Director",
+      "from": 2019,
+      "to": "now",
+      "description": "",
+      "details": {
+        "title": "See key responsibilities",
+        "items": [
+          "Responsible for engineering delivery",
+          "Managing cross-site collaboration and ensuring alignment with other development centers of Guidewire",
+          "Support in introduction globally scalable processes",
+          "Work with the local HR, Finance, IT and Facilities team to help develop the center",
+          "Cultivating top talent by driving technical and leadership development"
+        ]
+      }
+    },
+    {
       "id": "sgd_dev_manager",
       "type": "job",
       "organization": {
