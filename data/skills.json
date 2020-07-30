@@ -9,11 +9,6 @@
       "from": 2003,
       "type": "technology"
     }, {
-      "name": "Casino and Gambling Products",
-      "from": 2007,
-      "to": 2019,
-      "type": "technology"
-    }, {
       "name": "Team Building & Leadership",
       "from": 2008,
       "type": "management"
@@ -22,8 +17,17 @@
       "from": 2008,
       "type": "technology"
     }, {
+      "name": "Casino and Gambling Products",
+      "from": 2007,
+      "to": 2019,
+      "type": "technology"
+    }, {
       "name": "Cross-cultural Communication",
       "from": 2009,
+      "type": "management"
+    }, {
+      "name": "Project Management",
+      "from": 2010,
       "type": "management"
     }, {
       "name": "Mobile Applications",
@@ -34,15 +38,6 @@
       "name": "Game Development",
       "from": 2009,
       "to": 2018,
-      "type": "technology"
-    }, {
-      "name": "Project Management",
-      "from": 2010,
-      "type": "management"
-    }, {
-      "name": "Software Architecture",
-      "from": 2007,
-      "to": 2014,
       "type": "technology"
     }, {
       "name": "Agile Management",
@@ -60,6 +55,11 @@
       "name": "Strategic Planning",
       "from": 2013,
       "type": "management"
+    }, {
+      "name": "Software Architecture",
+      "from": 2007,
+      "to": 2014,
+      "type": "technology"
     }, {
       "name": "Entrepreneurship / Start-ups",
       "from": 2009,
