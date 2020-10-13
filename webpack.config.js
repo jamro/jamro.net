@@ -80,9 +80,9 @@ module.exports = {
       template: path.join(__dirname, 'src/main/template/index.hbs.html'),
       templateParameters: getDataJson()
     }),
-    new CopyPlugin([
+    new CopyPlugin({patterns: [
       { from: path.join(__dirname, 'assets'), to: path.join(__dirname, 'dist/img') }
-    ]),
+    ]}),
     new webpack.HotModuleReplacementPlugin()
   ],
   optimization: {
