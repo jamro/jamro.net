@@ -1,0 +1,50 @@
+<div class="container" style="margin-top: 100px">
+  <hr />
+  <div class="row">
+    <div class="col-12">
+      <h2>Projects</h2>
+      <p>
+        Some of tech stuff that I did for fun:
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    {{#each projects}}
+    <div class="col-xl-4 col-md-6 col-sm-12">
+      <div class="card project-card">
+        <img src="./img/projects/{{ this.id }}.png" class="card-img-top" alt="{{ this.name }} preview">
+        <div class="card-body">
+          <div class="project-links">
+            {{#if this.demo }}
+              <a href="{{ this.demo }}" class="button btn btn-primary btn-circle" target="_blank" title="Demo">
+                <i class="fa fa-link"></i>
+              </a>
+            {{/if}}
+            {{#if this.video }}
+              <a href="{{ this.video }}" class="button btn btn-primary btn-circle" target="_blank" title="Video">
+                <i class="fab fa-youtube"></i>
+              </a>
+            {{/if}}
+            {{#if this.repository }}
+              <a href="{{ this.repository }}" class="button btn btn-primary btn-circle" target="_blank" title="Repository">
+                <i class="fab fa-github"></i>
+              </a>
+            {{/if}}
+          </div>
+          <h5 class="card-title" style="margin-bottom: 0">{{ this.name }}</h5>
+          <small class="text-muted"><i class="far fa-clock"></i> {{ this.date }}</small></p>
+          <p class="card-text text-justify small">{{ this.description}}</p>
+        </div>
+        <div class="card-footer text-muted" style="padding-top: 0.25em">
+          <small>technology:</small>
+          <p style="margin-bottom: 0">
+            {{#each this.technologies}}
+            <span class="badge project-tech badge-primary">{{this}}</span>
+            {{/each}}
+          </p>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>

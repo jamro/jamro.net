@@ -1,0 +1,32 @@
+.project-tech {
+  margin: 2px;
+  display: inline-block;
+  font-weight: normal;
+  background-color: $jamro-dark;
+}
+
+.project-card {
+  margin-bottom: 3em;
+}
+
+.btn-circle {
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  padding: 0.5em;
+  border-radius: 50%;
+  font-size: 1em;
+}
+
+.project-links {
+  float: right;
+}
+
+.project-links .button {
+  display: inline-block;
+  border: 0.25em solid #fff;
+}
+
+.card-img-top {
+  border-bottom: 1px solid #ddd;
+}

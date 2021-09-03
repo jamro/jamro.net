@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "id": "nodepad",
+      "name": "NodePad",
+      "date": "2021",
+      "description": "A simple tool to manage life cycle of NodeJs apps. It allow to deploy, start/stop and monitor multiple apps via web interface or REST API.",
+      "repository": "https://github.com/jamro/nodepad",
+      "technologies": ["JavaScript", "NodeJS", "ReactJS", "Webpack", "Swagger", "ExpressJS"]
+    },
+    {
+      "id": "neural",
+      "name": "Neural Tank",
+      "date": "2020",
+      "description": "Evolving a neural network that successfully controls a tank and fights in JsBattle coding game.",
+      "repository": "https://github.com/jamro/neuraltank",
+      "technologies": ["JavaScript", "Webpack"]
+    },
+    {
+      "id": "sigma18",
+      "name": "Sigma 18",
+      "date": "2019",
+      "description": "My mini game that has won Gynvael's Winter GameDev Challenge 2018/19.",
+      "repository": "https://github.com/jamro/sigma18",
+      "video": "https://www.youtube.com/watch?v=gKZTUN5187s",
+      "demo": "https://sigma18.jmrlab.com/",
+      "technologies": ["JavaScript", "Webpack"]
+    },
+    {
+      "id": "oversort",
+      "name": "Oversort",
+      "date": "2019",
+      "description": "Let's see how much of over-engineering could be put into a simple app :) A simple sorting feature using as many technologies and tools as I could squeeze.",
+      "repository": "https://github.com/jamro/oversort",
+      "technologies": ["Bootstrap", "HAProxy", "JQuery", "Material Design", "Nginx", "ReactJS", "ExpressJS", "NodeJS", "InfluxDB", "MongoDB", "Redis", "Docker", "Vagrant", "VirtualBox", "Fluentd", "Grafana", "Prometheus", "BabelJS", "Webpack", "RabbitMQ", "Swagger"]
+    },
+    {
+      "id": "jsbattle",
+      "name": "JsBattle",
+      "date": "2018",
+      "description": "JavaScript Programming Game inspired by RoboCode. Code logic of autonomous tank and compete with others in the multi-player league.",
+      "repository": "https://github.com/jamro/jsbattle",
+      "demo": "https://jsbattle.jmrlab.com/",
+      "video": "https://www.youtube.com/watch?v=6_ZErTgGdWE",
+      "technologies": ["JavaScript", "Webpack", "NodeJS", "Pixi.js", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
+    },
+    {
+      "id": "magic_mirror",
+      "name": "Magic Mirror",
+      "date": "2017",
+      "description": "Personal assistant built into a mirror. The mirror is controlled over voice commands and a display data on its surface. It's based on Google Assistant extended by support from the custom-built intelligent home system (sensors, lights control, security, etc...)",
+      "video": "https://www.youtube.com/watch?v=29SXaOo8GV0",
+      "technologies": ["JavaScript", "NodeJS", "Android", "Raspberry PI", "Python", "MQTT"]
+    },
+    {
+      "id": "jamro_net",
+      "name": "Jamro.net",
+      "date": "2016",
+      "description": "The website that you are currently looking at. Nothing more, nothing less :)",
+      "repository": "https://github.com/jamro/jamro.net",
+      "technologies": ["JavaScript", "Webpack", "SCSS", "Bootstrap", "Handlebars.js"]
+    },
+    {
+      "id": "air_sensor",
+      "name": "Air Sensor",
+      "date": "2015",
+      "description": "Arduino-based air quality sensor. The device detects PM2.5 particles and keeps the history of records. It is a simple and effective way to be aware of air quality in a polluted city.",
+      "technologies": ["Arduino"]
+    },
+    {
+      "id": "zumo",
+      "name": "Zumo Robot",
+      "date": "2014",
+      "description": "A robot based on the Zumo platform. It has been equipped with a distance sensor to navigate through the floor, avoiding obstacles. It hangs around, exploring all the nooks and crannies of the apartment.",
+      "video": "https://youtu.be/mpiTwNVKCKQ",
+      "technologies": ["Arduino"]
+    },
+    {
+      "id": "smart_home",
+      "name": "Smart Home",
+      "date": "2014",
+      "description": "Home monitoring and controlling system based on Raspberry PI. It gathers metrics from various wireless sensors built on the Arduino platform (motion, light, doors, temperature, smoke detector) and tracks them in the cloud dashboards (Grafana running on AWS). The system also controls indoor lights, TV sets, and a magic mirror.",
+      "technologies": ["Arduino", "Raspberry PI", "Python", "Grafana", "MQTT", "InfluxDB"]
+    },
+    {
+      "id": "hyperpath",
+      "name": "Hyperpath",
+      "date": "2013",
+      "description": "Hyperpath is a fast-thinking strategy game. Take on the role of the commander. Go to a battle with unknown races from distant corners of the universe. Develop skills of your fleet and lead your army to victory.",
+      "video": "https://www.youtube.com/watch?v=yvAJcHPcWEQ",
+      "technologies": ["Android", "iOS", "Flash", "Pixi"]
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters in Bunnyland",
+      "date": "2011",
+      "description": "It's a fun, physics-based puzzle game. Two monsters have found themselves in the wrong place. Use your brain and help them getting out.",
+      "technologies": ["Flash", "Box2d", "Pixi"]
+    },
+    {
+      "id": "cargo_bridge",
+      "name": "Cargo Bridge",
+      "date": "2009",
+      "description": "That game will test your construction skills. Build a bridge and help your workers to collect items located on the other side of the valley. The game also offers a level designer and a library of community levels, ensuring endless fun.",
+      "video": "https://www.youtube.com/watch?v=g8gP2MAk-60",
+      "technologies": ["iOS", "Flash", "Box2d", "Pixi", "NodeJS", "AWS"]
+    }
+  ]
+}
