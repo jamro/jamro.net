@@ -1,4 +1,5 @@
-import $ from 'jquery';
+import {Tooltip} from "bootstrap";
+
 function fade(element) {
   var op = 0;
   element.style.display = 'block';
@@ -16,5 +17,6 @@ function fade(element) {
 
 window.addEventListener('appReady', () => {
   fade(document.getElementById('headline'));
-  $('[data-toggle="tooltip"]').tooltip();
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map((el) => new Tooltip(el))
 })

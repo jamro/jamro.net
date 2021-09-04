@@ -7,6 +7,7 @@ import GraphStack from './GraphStack.js';
 export default class CareerGraph {
 
   constructor(container) {
+    if(!container) throw new Error('container is requried!')
     let currentYear = (new Date).getFullYear();
     this.width = null;
     this.height = null;

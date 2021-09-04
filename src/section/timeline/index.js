@@ -2,6 +2,9 @@ import CareerGraph from './careerGraph/CareerGraph.js';
 import timelineData from '../../../data/timeline.json';
 
 let container = document.getElementById('career-graph');
+if(!container) {
+  throw new Error('HTML element #career-graph not found in the document')
+}
 let careerGraph = new CareerGraph(container);
 
 for(let data of timelineData.timeline) {

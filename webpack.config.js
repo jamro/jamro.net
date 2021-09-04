@@ -22,56 +22,25 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist')
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
         test: /\.hbs.html$/,
-        loader: 'handlebars-loader?helperDirs[]=' + __dirname + '/build/helpers'
+        use: ['handlebars-loader?helperDirs[]=' + __dirname + '/build/helpers']
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: [{
-          loader: 'babel-loader'
-        }]
-      },
-
-      {
-        test: /\.scss$/,
-        use: [
-          {
-            loader: "style-loader" // creates style nodes from JS strings
-          },
-          {
-            loader: "css-loader" // translates CSS into CommonJS
-          },
-          {
-            loader: "sass-loader" // compiles Sass to CSS
-          }
-        ]
+        use: ['babel-loader']
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i,
-        use: [
-          'file-loader',
-          {
-            loader: 'image-webpack-loader',
-            options: {
-              bypassOnDebug: true, // webpack@1.x
-              disable: true, // webpack@2.x and newer
-            },
-          },
-        ],
+        test: /\.s?css$/,
+        use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
-        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: '[name].[ext]',
-            outputPath: 'fonts/'
-          }
-        }]
+         test: /\.(png|svg|jpe?g|jpeg|gif)$/i,
+         type: 'asset/resource',
       }
     ]
   },
@@ -99,7 +68,7 @@ module.exports = {
     }
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, 'dist'),
     hot: true
   }
 };

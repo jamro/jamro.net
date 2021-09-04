@@ -16,17 +16,17 @@
         <div class="card-body">
           <div class="project-links">
             {{#if this.demo }}
-              <a href="{{ this.demo }}" class="button btn btn-primary btn-circle" target="_blank" title="Demo">
+              <a href="{{ this.demo }}" class="button btn btn-primary btn-circle" target="_blank" title="Demo" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
                 <i class="fa fa-link"></i>
               </a>
             {{/if}}
             {{#if this.video }}
-              <a href="{{ this.video }}" class="button btn btn-primary btn-circle" target="_blank" title="Video">
+              <a href="{{ this.video }}" class="button btn btn-primary btn-circle" target="_blank" title="Video" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
                 <i class="fab fa-youtube"></i>
               </a>
             {{/if}}
             {{#if this.repository }}
-              <a href="{{ this.repository }}" class="button btn btn-primary btn-circle" target="_blank" title="Repository">
+              <a href="{{ this.repository }}" class="button btn btn-primary btn-circle" target="_blank" title="Repository" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
                 <i class="fab fa-github"></i>
               </a>
             {{/if}}

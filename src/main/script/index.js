@@ -57,4 +57,5 @@ loadLibs((moduleName) => {
 })
 .catch((err) => {
   document.getElementById('jmr-loading-msg').innerHTML = "ERROR: " + err;
+  console.error(err)
 });

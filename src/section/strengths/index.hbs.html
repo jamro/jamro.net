@@ -13,21 +13,19 @@
             <br/>
             <small>({{ this.category }})</small>
           </h3>
-          <button  type="button" class="btn btn-default" data-toggle="modal" data-target="#strength-modal-{{this.name}}">
+          <button  type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#strength-modal-{{this.name}}">
             <i class="strength-symbol {{ this.icon }}"></i>
           </button>
           <br/>
-          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#strength-modal-{{this.name}}">
+          <button type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#strength-modal-{{this.name}}">
             Learn more <i class="fas fa-chevron-right"></i>
           </button>
-          <div id="strength-modal-{{this.name}}" class="modal">
+          <div id="strength-modal-{{this.name}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{this.name}}" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <h4 class="modal-title">{{ this.name }}</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
@@ -41,7 +39,7 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>

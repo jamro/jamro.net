@@ -3,6 +3,11 @@
   padding: 0px;
   height: 50px;
 
+  .navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
   .nav-link {
     height: 50px;
 
