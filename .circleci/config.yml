@@ -8,8 +8,7 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - checkout
-      - node/install:
-          npm-version: '12.18.0'
+      - node/install
       - run: node --version
       - run: npm --version
       - run: mv ~/project/data/config.json.default ~/project/data/config.json
