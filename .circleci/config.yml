@@ -1,19 +1,25 @@
 version: 2.1
 executors:
-  my-custom-executor:
+  node-executor:
     docker:
       - image: cimg/base:stable
+
+orbs:
+  node: circleci/node@4.7.0
       
 jobs:
-  ci:
-
-    executor: my-custom-executor
+  install:
+    executor: node-executor
     steps:
       - checkout
-      - run: |
-          npm run all
+      - node/install-packages
 
 workflows:
   my-custom-workflow:
     jobs:
-      - ci
+      - install
+      - node/run:
+          npm-run: all
+
+
+          
