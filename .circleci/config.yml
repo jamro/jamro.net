@@ -12,6 +12,7 @@ jobs:
     executor: node-executor
     steps:
       - checkout
+      - node/install
       - node/install-packages
 
 workflows:
@@ -22,4 +23,3 @@ workflows:
           npm-run: all
 
 
-          
