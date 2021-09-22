@@ -1,8 +1,18 @@
 version: 2.1
 orbs:
   node: circleci/node@4.7.0
+
+jobs:
+  ci-all:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - checkout
+      - node/install
+      - run: mv ~/project/data/config.json.default ~/project/data/config.json
+      - run: npm run all
+      
 workflows:
-  run-npm-command:
+  build-workflow:
     jobs:
-      - node/run:
-          npm-run: all
+      - ci-all
