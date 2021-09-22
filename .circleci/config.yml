@@ -8,12 +8,23 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - checkout
-      - node/install
+      - node/install:
+          npm-version: '12.18.0'
       - run: node --version
       - run: npm --version
       - run: mv ~/project/data/config.json.default ~/project/data/config.json
+      - restore_cache:
+          keys:
+            - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+            - node-v1-{{ .Branch }}-
+            - node-v1-
       - run: npm install
+      - save_cache:
+          paths:
+            - ~/usr/local/lib/node_modules  # location depends on npm version
+          key: node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
+#      - run: zip -r ~/project/jamro_net_dist.zip ~/project/dist
       
 workflows:
   build-workflow:
