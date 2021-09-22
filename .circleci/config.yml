@@ -1,26 +1,17 @@
 version: 2.1
-executors:
-  node-executor:
-    docker:
-      - image: cimg/base:stable
-
 orbs:
   node: circleci/node@4.7.0
-      
+
 jobs:
-  ci:
-    executor: node-executor
+  ci-all:
+    docker:
+      - image: 'cimg/base:stable'
     steps:
       - checkout
       - node/install
-      - node/install-packages
-      - run:
-          name: Run CI
-          command: npm run all
-
+      - run: npm run all
+      
 workflows:
-  my-custom-workflow:
+  build-workflow:
     jobs:
-      - ci
-
-
+      - ci-all
