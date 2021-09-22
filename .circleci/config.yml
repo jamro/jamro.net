@@ -11,6 +11,7 @@ jobs:
       - node/install
       - run: cat ~/project/package.json
       - run: mv ~/project/data/config.json.default ~/project/data/config.json
+      - run: npm install
       - run: npm run all
       
 workflows:
