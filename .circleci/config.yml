@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - save_cache:
           paths:
-            - ~/usr/local/lib/node_modules  # location depends on npm version
+            - ~/project/node_modules
           key: node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
 #      - run: zip -r ~/project/jamro_net_dist.zip ~/project/dist
