@@ -1,0 +1,19 @@
+version: 2.1
+executors:
+  my-custom-executor:
+    docker:
+      - image: cimg/base:stable
+      
+jobs:
+  ci:
+
+    executor: my-custom-executor
+    steps:
+      - checkout
+      - run: |
+          npm run all
+
+workflows:
+  my-custom-workflow:
+    jobs:
+      - ci
