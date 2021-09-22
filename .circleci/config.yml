@@ -6,6 +6,7 @@ jobs:
   ci-all:
     docker:
       - image: 'cimg/base:stable'
+    resource_class: small
     steps:
       - checkout
       - node/install
@@ -24,9 +25,7 @@ jobs:
           key: node-v2-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
       - run: zip -r ~/project/jamro_net_dist.zip ~/project/dist
-      - store_artifacts:
-          path: ~/project/jamro_net_dist.zip
-          destination: jamro_net_dist.zip
+
       
 workflows:
   build-workflow:
