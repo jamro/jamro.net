@@ -24,7 +24,7 @@ jobs:
           key: node-v2-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
       - run: cd dist; zip -r ../jamro_net_dist.zip *
-      - run: "curl -u $AUTH_TOKEN -f -X 'POST' 'https://nodepad-api.jmrlab.com/api/apps/bio-dev/content/zip' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'bin=@jamro_net_dist.zip;type=application/zip'"      
+      - run: "curl -u $AUTH_TOKEN -f -X 'POST' \"https://$NODEPAD_HOST/api/apps/bio-dev/content/zip\" -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'bin=@jamro_net_dist.zip;type=application/zip'"      
   
   build_prod:
     docker:
@@ -47,7 +47,7 @@ jobs:
           key: node-v2-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
       - run: cd dist; zip -r ../jamro_net_dist.zip *
-      - run: "curl -u $AUTH_TOKEN -f -X 'POST' 'https://nodepad-api.jmrlab.com/api/apps/bio/content/zip' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'bin=@jamro_net_dist.zip;type=application/zip'"      
+      - run: "curl -u $AUTH_TOKEN -f -X 'POST' \"https://$NODEPAD_HOST/api/apps/bio-dev/content/zip\" -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'bin=@jamro_net_dist.zip;type=application/zip'"      
 
 workflows:
   cicd-workflow:
@@ -57,7 +57,6 @@ workflows:
               branches:
                 only:
                   - develop
-                  - circleci-editor/circleci-project-setup
       - build_prod:
           filters:
               branches:
