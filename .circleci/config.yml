@@ -23,7 +23,7 @@ jobs:
             - ~/project/node_modules
           key: node-v2-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
-      - run: zip -r jamro_net_dist.zip ./dist/*
+      - run: cd dist; zip -r ../jamro_net_dist.zip *
       - store_artifacts:
           path: ~/project/jamro_net_dist.zip
           destination: jamro_net_dist.zip
