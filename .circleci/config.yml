@@ -39,9 +39,9 @@ workflows:
   dev-workflow:
     jobs:
       - install
-      - build
+      - build:
           requires:
             - install
-      - deploy
+      - deploy:
           requires:
             - build
