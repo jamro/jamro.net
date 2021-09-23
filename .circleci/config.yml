@@ -26,6 +26,7 @@ jobs:
       - run: zip -r ~/project/jamro_net_dist.zip ~/project/dist/*
       - store_artifacts:
           path: ~/project/jamro_net_dist.zip
+          destination: jamro_net_dist.zip
       - run: "curl -u $AUTH_TOKEN -f -X 'POST' 'https://nodepad-api.jmrlab.com/api/apps/bio-dev/content/zip' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'bin=@jamro_net_dist.zip;type=application/zip'"      
 
       
