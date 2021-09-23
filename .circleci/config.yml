@@ -3,7 +3,7 @@ orbs:
   node: circleci/node@4.7.0
 
 jobs:
-  install:
+  build:
     docker:
       - image: 'cimg/base:stable'
     steps:
@@ -22,12 +22,9 @@ jobs:
           paths:
             - ~/project/node_modules
           key: node-v2-{{ .Branch }}-{{ checksum "package-lock.json" }}
-  build:
-    docker:
-      - image: 'cimg/base:stable'
-    steps:
       - run: npm run all
       - run: cd dist; zip -r ../jamro_net_dist.zip *
+      
   deploy:
     docker:
       - image: 'cimg/base:stable'
@@ -38,10 +35,7 @@ jobs:
 workflows:
   dev-workflow:
     jobs:
-      - install
-      - build:
-          requires:
-            - install
+      - build
       - deploy:
           requires:
             - build
