@@ -23,7 +23,7 @@ jobs:
             - ~/project/node_modules
           key: node-v2-{{ .Branch }}-{{ checksum "package-lock.json" }}
       - run: npm run all
-      - run: zip -r ~/project/jamro_net_dist.zip ~/project/dist
+      - run: zip -r ~/project/jamro_net_dist.zip ~/project/dist/*
       - run: "curl -u $AUTH_TOKEN -X 'POST' 'https://nodepad-api.jmrlab.com/api/apps/bio-dev/content/zip' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'bin=@jamro_net_dist.zip;type=application/zip'"      
 
       
