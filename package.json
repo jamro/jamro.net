@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "main": "index.js",
   "scripts": {
-    "all": "npm run clean && npm run build",
+    "ci": "npm run clean && npm run build",
     "clean": "rimraf ./dist",
     "build:dev": "webpack --mode=development",
     "build": "webpack --mode=production",
