@@ -84,6 +84,10 @@
       "from": 2012,
       "to": 2015,
       "type": "technology"
+    }, {
+      "name": "DevOps",
+      "from": 2019,
+      "type": "management"
     }
   ]
 }
