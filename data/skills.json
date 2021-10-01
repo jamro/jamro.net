@@ -71,6 +71,10 @@
       "to": 2014,
       "type": "management"
     }, {
+      "name": "Amazon Web Services",
+      "from": 2017,
+      "type": "technology"
+    }, {
       "name": "Process Optimization",
       "from": 2013,
       "to": 2017,
