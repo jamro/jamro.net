@@ -33,6 +33,7 @@ jobs:
           command: cd dist; zip -r ../dist.zip *
       - aws-s3/copy:  
           from: dist.zip
+          aws-region: us-east-1
           to: 's3://artifacts-jmrlab'
       - persist_to_workspace:
           root: ~/project/
