@@ -33,7 +33,7 @@ jobs:
           command: cd dist; zip -r ../dist.zip *
       - aws-s3/copy:  
           from: dist.zip
-          to: s3://artifacts-jmrlab
+          to: s3://artifacts-jmrlab/<< pipeline.parameters.app-id >>/bio_dist_{{ .Branch }}.zip
       - persist_to_workspace:
           root: ~/project/
           paths:
