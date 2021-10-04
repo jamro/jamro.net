@@ -62,7 +62,7 @@ jobs:
 workflows:
   cicd-workflow:
     jobs:
-      - build
+      - build:
           context:
             - nodepad.jmrlab.com
       - deploy_dev:
