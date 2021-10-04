@@ -31,13 +31,20 @@ jobs:
       - run: 
           name: Compress artefact
           command: cd dist; zip -r ../dist.zip *
-      - aws-s3/copy:  
-          from: dist.zip
-          to: s3://artifacts-jmrlab/<< pipeline.parameters.app-id >>/bio_dist_${CIRCLE_BRANCH}_${CIRCLE_BUILD_NUM}.zip
       - persist_to_workspace:
           root: ~/project/
           paths:
             - dist.zip
+
+  store_artifact:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - attach_workspace:
+          at: ~/project/
+      - aws-s3/copy:  
+          from: dist.zip
+          to: s3://artifacts-jmrlab/<< pipeline.parameters.app-id >>/bio_dist_${CIRCLE_BRANCH}_${CIRCLE_BUILD_NUM}.zip
 
   deploy_dev:
     docker:
@@ -62,7 +69,10 @@ jobs:
 workflows:
   cicd-workflow:
     jobs:
-      - build:
+      - build
+      - store_artifact:
+          requires:
+            - build
           context:
             - nodepad.jmrlab.com
       - deploy_dev:
