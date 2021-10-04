@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@4.7.0
+  aws-s3: circleci/aws-s3@3.0.0
 
 parameters:
   app-id:
@@ -30,6 +31,9 @@ jobs:
       - run: 
           name: Compress artefact
           command: cd dist; zip -r ../dist.zip *
+      - aws-s3/copy:  
+          from: dist.zip
+          to: 's3://artifacts-jmrlab'
       - persist_to_workspace:
           root: ~/project/
           paths:
