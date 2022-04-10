@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - node/install:
-          node-version: '10.20'
+          node-version: '12.16'
       - run: 
           name: "Configure project"
           command: mv ~/project/data/config.json.default ~/project/data/config.json
