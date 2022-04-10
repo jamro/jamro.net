@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.7.0
+  node: circleci/node@5.0.2
   aws-s3: circleci/aws-s3@3.0.0
 
 parameters:
@@ -11,11 +11,9 @@ parameters:
 jobs:
   build:
     docker:
-      - image: 'circleci/node'
+      - image: 'circleci/node:16.10.0'
     steps:
       - checkout
-      - node/install:
-          node-version: '14.19.1'
       - run: 
           name: "Configure project"
           command: mv ~/project/data/config.json.default ~/project/data/config.json
