@@ -14,6 +14,8 @@ jobs:
       - image: 'circleci/node'
     steps:
       - checkout
+      - node/install:
+          node-version: '10.20'
       - run: 
           name: "Configure project"
           command: mv ~/project/data/config.json.default ~/project/data/config.json
