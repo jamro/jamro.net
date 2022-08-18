@@ -8,7 +8,7 @@
     "build:dev": "webpack --mode=development",
     "build": "webpack --mode=production",
     "start:dev": "webpack-dev-server --mode=development",
-    "start": "webpack-dev-server --mode=production",
+    "start": "http-server -c-1 ./dist",
     "w3c": "html-validator --file=./dist/index.html --verbose --format=gnu"
   },
   "author": "Krzysztof Jamróz <jamro@jamro.net>",
@@ -40,6 +40,7 @@
     "@fortawesome/fontawesome-free": "^6.1.1",
     "bootstrap": "^5.1.3",
     "core-js": "^3.21.1",
+    "http-server": "^14.1.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "svg.js": "^2.7.1"
