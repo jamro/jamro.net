@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "id": "runsnail",
+      "name": "Run Snail Game",
+      "date": "2022",
+      "description": "A mini-game submitted to the ATZOD contest. The goal of was to creatively answer a question: How does a snail walk?",
+      "repository": "https://github.com/jamro/runsnail",
+      "demo": "https://runsnail.jmrlab.com/",
+      "technologies": ["JavaScript", "PixiJS", "Box2D", "Webpack"]
+    },
+    {
       "id": "nodepad",
       "name": "NodePad",
       "date": "2021",
