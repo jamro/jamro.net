@@ -32,27 +32,49 @@
               </div>
               <div class="timeline-body">
                 <p>{{this.description}}</p>
-                {{#if this.teamsize}}
-                <p class="team-size-header">Team size: (up to {{this.teamsize}})</p>
-                <p class="team-size-body">
-                  {{#times this.teamsize}}
-                    <i class="fas fa-user"></i>
-                  {{/times}}
-                </p>
-                {{/if}}
                 {{#if this.details}}
                   <br/>
                   <a href="javascript:void(0)" class="details-link" id="details-link-{{ this.id }}">
                     {{ this.details.title }}
-                    <i id="details-link-{{ this.id }}-icon" class="fas fa-caret-right"></i>
+                    <i id="details-link-{{ this.id }}-icon" class="fas fa-caret-down"></i>
                   </a>
-                  <ul id="details-link-{{ this.id }}-content" style="display: none">
+                  <ul id="details-link-{{ this.id }}-content" style="display: block">
                     {{#each this.details.items}}
                       <li>{{ this }}</li>
                     {{/each}}
                   </ul>
                 {{/if}}
               </div>
+              {{#ifAny this.teamsize this.technology this.locations}}
+                <div class="timeline-footer">
+                  {{#if this.teamsize}}
+                  <p class="team-size-header">Team size: (up to {{this.teamsize}})</p>
+                  <p class="team-size-body">
+                    {{#times this.teamsize}}
+                      <i class="fas fa-user"></i>
+                    {{/times}}
+                  </p>
+                  {{/if}}
+                  {{#if this.technology}}
+                    <p class="technology-header">Technologies:</p>
+                    <p class="technology-body">
+                      {{#each this.technology}}
+                        <span class="badge project-tech badge-primary">{{ this }}</span>
+                      {{/each}}
+                    </p>
+                  {{/if}}
+                  {{#if this.locations}}
+                  <p class="location-header">Locations:</p>
+                  <p class="location-body">
+                    {{#each this.locations}}
+                      <span class="badge project-tech badge-primary" style="background-color: #E95420">{{ this }}</span>
+                    {{/each}}
+                  </p>
+                {{/if}}
+                </div>
+              {{else}}
+                <div style="height: 1em;"></div>
+              {{/ifAny}}
             </div>
           </li>
         {{/each}}

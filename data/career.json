@@ -9,6 +9,12 @@
       },
       "title": "Senior Director, Engineering",
       "teamsize": 80,
+      "technology": [
+        "AWS", "Java", "Kubernetes", "JavaScript", "ReactJS", "Terraform"
+      ],
+      "locations": [
+        "Poland", "USA", "Canada", "Ireland", "Australia", "India"
+      ],
       "from": 2019,
       "to": "now",
       "description": "When I joined Guidewire, the company was beginning a cloud transformation. The goal was to shift from on-premises products to offering only cloud solutions in the SaaS model. Kraków engineering teams I have led were building a crucial part of that strategic shift - the Guidewire Cloud Platform. We quickly moved from a prototype phase to a mainstream product used by numerous customers to manage on-line services. My primary focus at that stage was to adapt to the new scale and quickly rising demand. I was responsible for growing the team, adjusting the organization structure, fastening the cooperation across locations. The scaling also required alignment of some engineering aspects like the architecture of our product or SDLC process so we can keep delivering frequently but at a bigger scale.",
@@ -43,7 +49,10 @@
           "File size below 128000 bytes (without the layout overlay)",
           "Completed in one month"
         ]
-      }
+      },
+      "technology": [
+        "JavaScript", "Webpack", "HTML5"
+      ]
     },
     {
       "id": "sgd_dev_manager",
@@ -65,7 +74,13 @@
           "Supporting recruitment of technical staff",
           "Alignment with senior stakeholders in the organisation"
         ]
-      }
+      },
+      "technology": [
+        "JavaScript", "Java", "Python", "Terraform"
+      ],
+      "locations": [
+        "Poland", "UK", "Greece", "Ukranie", "Sweden"
+      ]
     },
     {
       "id": "yggdrasil_head_of_delivery",
@@ -90,7 +105,13 @@
           "Ultimate responsibility for delivery agreed roadmaps (project tracking and planning)",
           "Ultimate responsibility for the performance of the department"
         ]
-      }
+      },
+      "technology": [
+        "JavaScript", "PixiJS", "HTML5", "Webpack", "Mobile Apps", "Java"
+      ],
+      "locations": [
+        "Poland", "Malta", "Sweden"
+      ]
     },
     {
       "id": "novomatic_head_of_tech",
@@ -115,7 +136,13 @@
           "Continuously improving performance of teams",
           "Managing internal R&D projects (e.g. Game Framework Development)"
         ]
-      }
+      },
+      "technology": [
+        ".NET", "Java", "MSSQL", "PostgreSQL", "C++", "JavaScript", "Ruby", "HTML5", "Puppet", "AMQP"
+      ],
+      "locations": [
+        "Poland", "Austria", "Italy", "UK", "Germany", "Russia", "Czech Republic", "Slovenia", "Hungary", "Netherlands"
+      ]
     },
     {
       "id": "education_mba",
@@ -142,7 +169,10 @@
           "International Corporate Finance",
           "Managerial Economics"
         ]
-      }
+      },
+      "locations": [
+        "Poland", "France"
+      ]
     },
     {
       "id": "novomatic_head_of_ppm",
@@ -167,7 +197,13 @@
           "Supervising projects on various phases of SDLC",
           "Act as point of contact for senior management, locally and globally"
         ]
-      }
+      },
+      "technology": [
+        ".NET", "Java", "JavaScript", "Ruby"
+      ],
+      "locations": [
+        "Poland", "Austria", "Italy", "UK", "Germany", "Russia", "Czech Republic", "Slovenia", "Hungary", "Netherlands"
+      ]
     },
     {
       "id": "novomatic_head_of_pmo",
@@ -188,7 +224,10 @@
           "Gathering data about project progress and status",
           "Improving communication so that senior executives and stakeholders know project status"
         ]
-      }
+      },
+      "locations": [
+        "Poland", "Austria"
+      ]
     },
     {
       "id": "education_mooc",
@@ -238,7 +277,13 @@
           "Developing architecture capabilities of the company",
           "Supervising key R&D projects"
         ]
-      }
+      },
+      "technology": [
+        ".NET", "Java", "MSSQL", "PostgreSQL", "C++", "JavaScript", "Ruby", "HTML5", "AMQP"
+      ],
+      "locations": [
+        "Poland", "Austria", "Italy", "UK", "Germany", "Russia", "Czech Republic", "Slovenia", "Hungary", "Netherlands"
+      ]
     },
     {
       "id": "business_eratownik",
@@ -261,7 +306,13 @@
           "Establishing technical standards and ensuring adherence to them for product development",
           "Introduction of agile techniques and lean product development approach"
         ]
-      }
+      },
+      "technology": [
+        "PHP", "MySQL", "JavaScript", "HTML5"
+      ],
+      "locations": [
+        "Poland"
+      ]
     },
     {
       "id": "novomatic_it_pm",
@@ -287,7 +338,10 @@
           "Risk Management",
           "Using PMBOK or agile (SCRUM and Kanban) approach depending on project needs"
         ]
-      }
+      },
+      "locations": [
+        "Poland", "Austria", "Italy", "UK", "Germany", "Russia", "Czech Republic", "Slovenia", "Hungary", "Netherlands"
+      ]
     },
     {
       "id": "business_limexgames",
@@ -308,7 +362,13 @@
           "Responsible for whole product life cycle (from the idea, through development, to the release, marketing, sales, etc...)",
           "12 game titles released (100M game plays worldwide)"
         ]
-      }
+      },
+      "technology": [
+        "Flash", "JavaScript", "Box2D", "PixiJS", "HTML5", "NodeJS", "iOS", "Android", "AWS"
+      ],
+      "locations": [
+        "Poland", "UK", "USA", "Ukraine"
+      ]
     },
     {
       "id": "novomatic_web_dev",
@@ -328,7 +388,13 @@
           "Responsible for technical vision and architecture decisions",
           "Coordination of software development team (web application)"
         ]
-      }
+      },
+      "technology": [
+        "PHP", "JavaScript", "HTML", "MySQL"
+      ],
+      "locations": [
+        "Poland", "Austria"
+      ]
     },
     {
       "id": "education_pm",
@@ -398,7 +464,10 @@
           "Graphic design (layouts, photomontages)",
           "Coordination of small, software development team"
         ]
-      }
+      },
+      "technology": [
+        "PHP", "MySQL", "JavaScript", "HTML", "Flash"
+      ]
     },
     {
       "id": "education_aar",
