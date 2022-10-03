@@ -8,6 +8,7 @@
         "url": "https://www.guidewire.com/"
       },
       "title": "Senior Director, Engineering",
+      "teamsize": 80,
       "from": 2019,
       "to": "now",
       "description": "When I joined Guidewire, the company was beginning a cloud transformation. The goal was to shift from on-premises products to offering only cloud solutions in the SaaS model. Kraków engineering teams I have led were building a crucial part of that strategic shift - the Guidewire Cloud Platform. We quickly moved from a prototype phase to a mainstream product used by numerous customers to manage on-line services. My primary focus at that stage was to adapt to the new scale and quickly rising demand. I was responsible for growing the team, adjusting the organization structure, fastening the cooperation across locations. The scaling also required alignment of some engineering aspects like the architecture of our product or SDLC process so we can keep delivering frequently but at a bigger scale.",
@@ -52,6 +53,7 @@
         "url": "https://www.scientificgames.com/"
       },
       "title": "Senior Development Manager",
+      "teamsize": 20,
       "from": 2018,
       "to": "2019",
       "description": "Recently, the company had gone through several, significant acquisitions what created a quite complex and diverse environment. The new, Krakow office that I have joined wasn't fully integrated with the rest of the organization.  Due to numerous dependencies, all of that had a negative impact on local teams. My focus was on bridging the gap, connecting the office with the rest of the company and ensuring that teams can work efficiently. It was including areas such as knowledge transfer, communication, goals alignment, promoting and growing local leaders, removing organization-wide level obstacles, process integration, assignment of projects and building ownership of products. In some cases, I was also involved in key projects, making sure that their goals are achieved despite productivity blockers that the local office was facing.",
@@ -73,6 +75,7 @@
         "url": "https://yggdrasilgaming.com/"
       },
       "title": "Head of Delivery - Gaming",
+      "teamsize": 50,
       "from": 2017,
       "to": 2018,
       "description": "When I was joining Yggdrasil, it was a rapidly growing start-up. As Head of Delivery, I was responsible for the development and delivery of games for online casinos. During the first year, we have doubled the number of people within the Gaming Department and built several teams in various geographical locations. The biggest challenge was to balance scaling the structure up, maintaining the start-up culture of the company and ensuring that ambitious business needs can be addressed by software development teams.",
@@ -97,6 +100,7 @@
         "url": "https://novomatic-tech.com/"
       },
       "title": "Head of Technology Department",
+      "teamsize": 50,
       "from": 2016,
       "to": 2017,
       "description": "Technology Department which I was responsible for, consisted of over 50 professionals specialized in various areas. The vast majority of them were software developers (Java, .Net, C++, Ruby, JavaScript). However, there were also other professions such as Quality Engineers, UX and Graphic Designers. Products developed within the department were also differentiated and covered among others: web applications, embedded systems and games. My job, as the Head of the Department, was to make sure that despite such variety, all teams are working efficiently and following best engineering practices.",
@@ -148,6 +152,7 @@
         "url": "https://novomatic-tech.com/"
       },
       "title": "Head of Project and Product Management",
+      "teamsize": 10,
       "from": 2015,
       "to": 2016,
       "description": "As a Head of Product & Project Management Department, I was responsible for building and leading the team of IT Project Managers. Over the time, projects realized by the company became larger and more complex so some changes were required in order to adapt to new situation. I needed to adjust the scope of responsibilities in PM team and introduce a new structure. Some changes in the process were required as well to be sure that best managing practices are followed. I was also strongly involved into hiring process to increase the capacity of the overloaded team. Results of all those efforts allowed for keeping efficient realization of projects within the company.",
@@ -243,6 +248,7 @@
         "url": "http://www.e-ratownik.com.pl"
       },
       "title": "Co-owner",
+      "teamsize": 3,
       "from": 2012,
       "to": 2015,
       "description": "E-ratownik is a start-up that offers e-learning, legally recognized trainings for paramedics in Poland. As a co-owner I was supervising software development activities. Good understanding of SDLC and agile techniques allowed me to improve the efficiency of the team. I was also involved in product development. It was a good chance to apply knowledge gained during previous business & marketing courses. Listening of customer's feedback helped us to tweak the product and increase the sales by 15%.",
@@ -290,6 +296,7 @@
         "name": "Limex Games"
       },
       "title": "Founder",
+      "teamsize": 2,
       "from": 2009,
       "to": 2013,
       "description": "Passion for technology and constant desire to learn new things led me to spend some free time on developing casual games. After a few months, my hobby turned into a well-working business. My role also has changed over the time from the developer to the manager what was complementary to my full-time job. Limex Games has released 12 casual games for mobiles and the web. All titles were played over 100 000 000 times worldwide and they were featured on top portals like Google Chrome WebStore, Kongregate or ArmorGames",

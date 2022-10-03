@@ -32,6 +32,14 @@
               </div>
               <div class="timeline-body">
                 <p>{{this.description}}</p>
+                {{#if this.teamsize}}
+                <p class="team-size-header">Team size: (up to {{this.teamsize}})</p>
+                <p class="team-size-body">
+                  {{#times this.teamsize}}
+                    <i class="fas fa-user"></i>
+                  {{/times}}
+                </p>
+                {{/if}}
                 {{#if this.details}}
                   <br/>
                   <a href="javascript:void(0)" class="details-link" id="details-link-{{ this.id }}">
