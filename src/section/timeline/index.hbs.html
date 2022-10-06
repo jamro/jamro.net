@@ -45,32 +45,48 @@
                   </ul>
                 {{/if}}
               </div>
-              {{#ifAny this.teamsize this.technology this.locations}}
+              {{#ifAny this.teamsize this.technology this.locations this.products}}
                 <div class="timeline-footer">
-                  {{#if this.teamsize}}
-                  <p class="team-size-header">Team size: (up to {{this.teamsize}})</p>
-                  <p class="team-size-body">
-                    {{#times this.teamsize}}
-                      <i class="fas fa-user"></i>
-                    {{/times}}
-                  </p>
-                  {{/if}}
-                  {{#if this.technology}}
-                    <p class="technology-header">Technologies:</p>
-                    <p class="technology-body">
-                      {{#each this.technology}}
-                        <span class="badge project-tech badge-primary">{{ this }}</span>
+                  {{#if this.products}}
+                  <div class="project-props">
+                    <h5>Products:</h5>
+                    <p>
+                      {{#each this.products}}
+                        <span class="badge career-tag badge-primary career-tag-proj">{{ this }}</span>
                       {{/each}}
                     </p>
+                  </div>
+                  {{/if}}
+                  {{#if this.technology}}
+                    <div class="project-props">
+                      <h5>Technologies:<h5>
+                      <p>
+                        {{#each this.technology}}
+                          <span class="badge career-tag badge-primary career-tag-tech">{{ this }}</span>
+                        {{/each}}
+                      </p>
+                    </div>
                   {{/if}}
                   {{#if this.locations}}
-                  <p class="location-header">Locations:</p>
-                  <p class="location-body">
-                    {{#each this.locations}}
-                      <span class="badge project-tech badge-primary" style="background-color: #E95420">{{ this }}</span>
-                    {{/each}}
-                  </p>
-                {{/if}}
+                    <div class="project-props">
+                      <h5>Locations:</h5>
+                      <p>
+                        {{#each this.locations}}
+                          <span class="badge career-tag badge-primary career-tag-loc">{{ this }}</span>
+                        {{/each}}
+                      </p>
+                    </div>
+                  {{/if}}
+                  {{#if this.teamsize}}
+                    <div class="project-props">
+                      <h5>Team size: (up to {{this.teamsize}})</h5>
+                      <p>
+                        {{#times this.teamsize}}
+                          <i class="fas fa-user"></i>
+                        {{/times}}
+                      </p>
+                    </div>
+                  {{/if}}
                 </div>
               {{else}}
                 <div style="height: 1em;"></div>

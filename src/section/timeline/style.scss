@@ -221,19 +221,32 @@
   }
 }
 
-.team-size-header {
-  margin-bottom: 0.5em;
-}
+.project-props {
 
-.team-size-body {
-  font-size: 0.75em !important;
-  padding: 0 1em;
-}
+    p {
+        padding: 0 0.5em;
+    }
 
-.technology-header, .location-header {
-  margin-bottom: 0;
-}
+    h5 {
+        font-size: 1em;
+    }
 
-.technology-body, .location-body {
-    padding: 0 1em;
+    .career-tag {
+        margin: 2px;
+        display: inline-block;
+        font-weight: normal;
+        background-color: $jamro-dark;
+    }
+
+    .career-tag-tech {
+        background-color: #000;
+    }
+
+    .career-tag-proj {
+        background-color: #E95420;
+    }
+
+    .career-tag-loc {
+        background-color: #0864cd;
+    }
 }
