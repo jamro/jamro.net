@@ -5,7 +5,8 @@
       "type": "job",
       "organization": {
         "name": "Guidewire Software",
-        "url": "https://www.guidewire.com/"
+        "url": "https://www.guidewire.com/",
+        "logo": "guidewire.png"
       },
       "title": "Senior Director, Engineering",
       "teamsize": 80,
@@ -37,9 +38,10 @@
       "type": "business",
       "organization": {
         "name": "Sigma-18",
-        "url": "https://sigma18.jmrlab.com"
+        "url": "https://sigma18.jmrlab.com",
+        "logo": "gynvael.png"
       },
-      "title": "Winner of GameDev Challenge",
+      "title": "Gynvael's GameDev Challenge",
       "from": 2019,
       "to": 2019,
       "description": "I was honored to participate in Gynvael's Winter GameDev Challenge 2018/19. It was an excellent opportunity to test my coding skills and have a lot of fun designing and implementing my ideas. My game, Sigma-18, has taken 1st place in the competition.",
@@ -65,7 +67,8 @@
       "type": "job",
       "organization": {
         "name": "Scientific Games",
-        "url": "https://www.scientificgames.com/"
+        "url": "https://www.scientificgames.com/",
+        "logo": "sg.png"
       },
       "title": "Senior Development Manager",
       "teamsize": 20,
@@ -96,7 +99,8 @@
       "type": "job",
       "organization": {
         "name": "Yggdrasil Gaming",
-        "url": "https://yggdrasilgaming.com/"
+        "url": "https://yggdrasilgaming.com/",
+        "logo": "yggdrasil.png"
       },
       "title": "Head of Delivery - Gaming",
       "teamsize": 50,
@@ -130,7 +134,8 @@
       "type": "job",
       "organization": {
         "name": "Novomatic Technologies Poland",
-        "url": "https://novomatic-tech.com/"
+        "url": "https://novomatic-tech.com/",
+        "logo": "novomatic.png"
       },
       "title": "Head of Technology Department",
       "teamsize": 60,
@@ -164,9 +169,10 @@
       "type": "education",
       "organization": {
         "name": "Cracow University of Economics",
-        "url": "http://www.uek.krakow.pl/en"
+        "url": "http://www.uek.krakow.pl/en",
+        "logo": "uek.png"
       },
-      "title": "Executive Master of Business Administration",
+      "title": "Executive MBA",
       "from": 2015,
       "to": 2017,
       "description": "To improve my management skills and increase my knowledge about business aspects, I enrolled in an Executive MBA. The goal was to complement my technical competencies with a good understanding of business practices. Such a combination of skills allows me to bridge the gap between business and IT efficiently.",
@@ -194,7 +200,8 @@
       "type": "job",
       "organization": {
         "name": "Novomatic Technologies Poland",
-        "url": "https://novomatic-tech.com/"
+        "url": "https://novomatic-tech.com/",
+        "logo": "novomatic.png"
       },
       "title": "Head of Project and Product Management",
       "teamsize": 10,
@@ -228,7 +235,8 @@
       "type": "job",
       "organization": {
         "name": "Novomatic Technologies Poland",
-        "url": "https://novomatic-tech.com/"
+        "url": "https://novomatic-tech.com/",
+        "logo": "novomatic.png"
       },
       "title": "Head of Project Management Office",
       "from": 2015,
@@ -282,7 +290,8 @@
       "type": "job",
       "organization": {
         "name": "Novomatic Technologies Poland",
-        "url": "https://novomatic-tech.com/"
+        "url": "https://novomatic-tech.com/",
+        "logo": "novomatic.png"
       },
       "title": "Executive Manager - Enterprise Architecture",
       "from": 2013,
@@ -314,7 +323,8 @@
       "type": "business",
       "organization": {
         "name": "www.e-ratownik.com.pl",
-        "url": "http://www.e-ratownik.com.pl"
+        "url": "http://www.e-ratownik.com.pl",
+        "logo": "e-ratownik.png"
       },
       "title": "Co-owner",
       "teamsize": 3,
@@ -346,7 +356,8 @@
       "type": "job",
       "organization": {
         "name": "Novomatic Technologies Poland",
-        "url": "https://novomatic-tech.com/"
+        "url": "https://novomatic-tech.com/",
+        "logo": "novomatic.png"
       },
       "title": "IT Project Manager",
       "from": 2011,
@@ -377,7 +388,8 @@
       "id": "business_limexgames",
       "type": "business",
       "organization": {
-        "name": "Limex Games"
+        "name": "Limex Games",
+        "logo": "limex.png"
       },
       "title": "Founder",
       "teamsize": 2,
@@ -408,7 +420,8 @@
       "type": "job",
       "organization": {
         "name": "Novomatic Technologies Poland",
-        "url": "https://novomatic-tech.com/"
+        "url": "https://novomatic-tech.com/",
+        "logo": "novomatic.png"
       },
       "title": "Software Developer",
       "from": 2005,
@@ -437,7 +450,8 @@
       "type": "education",
       "organization": {
         "name": "Tischner European University",
-        "url": "http://www.wse.krakow.pl/en/"
+        "url": "http://www.wse.krakow.pl/en/",
+        "logo": "wse.png"
       },
       "title": "School of Project Management",
       "from": 2007,
@@ -462,8 +476,9 @@
       "id": "education_se",
       "type": "education",
       "organization": {
-        "name": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
-        "url": "http://www.agh.edu.pl/en/"
+        "name": "Akademia Górniczo-Hutnicza w Krakowie",
+        "url": "http://www.agh.edu.pl/en/",
+        "logo": "agh.png"
       },
       "title": "Software Engineering",
       "from": 2006,
@@ -512,8 +527,9 @@
       "id": "education_aar",
       "type": "education",
       "organization": {
-        "name": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
-        "url": "http://www.agh.edu.pl/en/"
+        "name": "Akademia Górniczo-Hutnicza w Krakowie",
+        "url": "http://www.agh.edu.pl/en/",
+        "logo": "agh.png"
       },
       "title": "Automatics and Robotics",
       "from": 2002,

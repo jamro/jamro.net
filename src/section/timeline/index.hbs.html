@@ -18,17 +18,28 @@
             <div class="timeline-badge" style="{{timeline 'badgeStyle'}}"><i class="fas fa-{{timeline 'icon'}}"></i></div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4 class="timeline-title">{{this.title}}</h4>
-                <p>
-                {{#if this.organization.url}}
-                  <a href={{this.organization.url}} class="organization" target="_blank">{{this.organization.name}}</a>
-                {{else}}
-                  {{#if this.organization.name}}
-                    <span class="organization">{{this.organization.name}}</span>
+                <div class="row">
+                  {{#if this.organization.logo}}
+                    <div class="col-2">
+                      <img src="img/logo/{{ this.organization.logo }}" class="img-fluid logo" alt="{{this.organization.name}} Logo">
+                    </div>
+                    <div class="col-10">
+                  {{else}}
+                    <div class="col-12">
                   {{/if}}
-                {{/if}}
-                <br/>
-                <small class="text-muted"><i class="far fa-clock"></i> {{timeline 'dates'}}</small></p>
+                    <h4 class="timeline-title">{{this.title}}</h4>
+                    <p>
+                    {{#if this.organization.url}}
+                      <a href={{this.organization.url}} class="organization" target="_blank">{{this.organization.name}}</a>
+                    {{else}}
+                      {{#if this.organization.name}}
+                        <span class="organization">{{this.organization.name}}</span>
+                      {{/if}}
+                    {{/if}}
+                    <br/>
+                    <small class="text-muted"><i class="far fa-clock"></i> {{timeline 'dates'}}</small></p>
+                  </div>
+                </div>
               </div>
               <div class="timeline-body">
                 <p>{{this.description}}</p>
