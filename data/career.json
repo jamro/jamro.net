@@ -155,7 +155,7 @@
         ]
       },
       "technology": [
-        ".NET", "Java", "MSSQL", "PostgreSQL", "C++", "JavaScript", "Ruby", "HTML5", "Puppet", "AMQP"
+        ".NET", "Java", "MSSQL", "PostgreSQL", "C++", "JavaScript", "Ruby", "HTML5", "Puppet"
       ],
       "locations": [
         "Poland", "Austria", "Italy", "UK", "Germany", "Russia", "Czech Republic", "Slovenia", "Hungary", "Netherlands"
@@ -309,7 +309,7 @@
         ]
       },
       "technology": [
-        ".NET", "Java", "MSSQL", "PostgreSQL", "C++", "JavaScript", "Ruby", "HTML5", "AMQP"
+        ".NET", "Java", "MSSQL", "PostgreSQL", "C++", "JavaScript", "Ruby", "HTML5"
       ],
       "locations": [
         "Poland", "Austria", "Italy", "UK", "Germany", "Russia", "Czech Republic", "Slovenia", "Hungary", "Netherlands"
