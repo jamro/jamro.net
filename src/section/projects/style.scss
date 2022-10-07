@@ -25,6 +25,7 @@
 
 .project-links {
   float: right;
+  margin-top: -2em;
 }
 
 .project-links .button {
@@ -34,4 +35,22 @@
 
 .card-img-top {
   border-bottom: 1px solid #ddd;
+}
+
+.project-featured {
+
+  .featured-label {
+    font-weight: bold;
+    color: #884;
+    font-size: 0.75em;
+  }
+
+  .project-card {
+    background-color: #ffe;
+    border: 1px solid #996;
+  }
+
+  .project-links .button {
+    border: 0.25em solid #ffe;
+  }
 }
