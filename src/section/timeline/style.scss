@@ -254,3 +254,9 @@
 .logo {
     padding: 0.25em;
 }
+
+@media print {
+    .timeline-panel {
+        break-inside: avoid;
+    }
+}
