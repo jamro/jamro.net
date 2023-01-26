@@ -255,6 +255,17 @@
     padding: 0.25em;
 }
 
+.badge-outline {
+    color: black;
+    border: 1px solid #999;
+    background-color: transparent !important;
+}
+
+.badge-outline.career-tag {
+    border-color: #0864cd;
+    color: #0864cd;
+}
+
 @media print {
     .timeline-panel {
         break-inside: avoid;

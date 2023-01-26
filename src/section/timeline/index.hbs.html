@@ -83,13 +83,15 @@
                       <h5>Locations:</h5>
                       <p>
                         {{#each this.locations}}
-                          <span class="badge career-tag badge-primary career-tag-loc">
                             {{#if @first}}
-                              <i class="fa-solid fa-building" style="margin-right: 0.5em"></i> <strong>{{ this }}</strong>
+                              <span class="badge career-tag badge-primary career-tag-loc">
+                                <i class="fa-solid fa-building" style="margin-right: 0.5em"></i> <strong>{{ this }}</strong>
+                              </span>
                             {{else}}
-                              {{ this }}
+                              <span class="badge career-tag badge-primary career-tag-loc badge-outline">
+                                {{ this }}
+                              </span>
                             {{/if}}
-                          </span>
                         {{/each}}
                       </p>
                     </div>
