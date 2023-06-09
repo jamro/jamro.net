@@ -1,24 +1,26 @@
 {
   "projects": [
     {
+      "id": "deskhud",
+      "name": "Desk HUD",
+      "featured": true,
+      "date": "2023",
+      "description": "A handy side monitor with a touch screen that helps stay organized, control smart devices, and access essential features like a todo list and calendar right from your desk.",
+      "repository": "https://github.com/jamro/desk-hud",
+      "demo": "https://desk-hud.jmrlab.com/",
+      "video": "https://www.youtube.com/watch?v=2UuWsG3Lnaw",
+      "technologies": ["JavaScript", "Webpack", "NodeJS", "Pixi.js", "ExpressJS", "Raspberry PI", "Python"]
+    },
+    {
       "id": "jsbattle",
       "name": "JsBattle",
       "featured": true,
-      "date": "2018",
+      "date": "20218",
       "description": "JavaScript Programming Game inspired by RoboCode. Code logic of autonomous tank and compete with others in the multi-player league.",
       "repository": "https://github.com/jamro/jsbattle",
       "demo": "https://jsbattle.jmrlab.com/",
       "video": "https://www.youtube.com/watch?v=6_ZErTgGdWE",
       "technologies": ["JavaScript", "Webpack", "NodeJS", "Pixi.js", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
-    },
-    {
-      "id": "nodepad",
-      "name": "NodePad",
-      "featured": true,
-      "date": "2021",
-      "description": "A simple tool to manage life cycle of NodeJs apps. It allow to deploy, start/stop and monitor multiple apps via web interface or REST API.",
-      "repository": "https://github.com/jamro/nodepad",
-      "technologies": ["JavaScript", "NodeJS", "ReactJS", "Webpack", "Swagger", "ExpressJS"]
     },
     {
       "id": "sigma18",
@@ -40,6 +42,15 @@
       "repository": "https://github.com/jamro/runsnail",
       "demo": "https://runsnail.jmrlab.com/",
       "technologies": ["JavaScript", "PixiJS", "Box2D", "Webpack"]
+    },
+    {
+      "id": "nodepad",
+      "name": "NodePad",
+      "featured": false,
+      "date": "2021",
+      "description": "A simple tool to manage life cycle of NodeJs apps. It allow to deploy, start/stop and monitor multiple apps via web interface or REST API.",
+      "repository": "https://github.com/jamro/nodepad",
+      "technologies": ["JavaScript", "NodeJS", "ReactJS", "Webpack", "Swagger", "ExpressJS"]
     },
     {
       "id": "neural",
