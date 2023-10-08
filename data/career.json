@@ -1,6 +1,30 @@
 {
   "career": [
     {
+      "id": "ml_courses",
+      "type": "education",
+      "organization": {
+        "name": "Coursera, Udacity, ..."
+      },
+      "title": "Machine Learning Online Courses",
+      "from": 2023,
+      "to": 2023,
+      "description": "Taking advantage of a sabbatical break and intrigued by the potential of AI, I delved into machine learning courses. I wanted to understand the inner workings and see how Machine Learning truly functions.",
+      "details": {
+        "title": "Details",
+        "items": [
+          "Data processing in Python",
+          "Deep Learning Fundamentals",
+          "Regression and Classification Models",
+          "Computer Vision and Convolutional Neural Networks",
+          "Deep Reinforced Learning"
+        ]
+      },
+      "technology": [
+        "Pandas", "TensorFlow", "Scikit-learn", "Python", "JavaScript"
+      ]
+    },
+    {
       "id": "guidewire_eng_director",
       "type": "job",
       "organization": {
