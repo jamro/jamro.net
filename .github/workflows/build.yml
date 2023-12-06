@@ -29,11 +29,10 @@ jobs:
         npm build
 
     - name: Upload to FTP
-      run: |
-        apt-get update
-        apt-get install -y lftp
-        lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} sftp://${{ secrets.FTP_SERVER }} && mirror -R -e -x .gitignore -x node_modules -x .github ./dist /"
-      env:
-        FTP_SERVER: ${{ secrets.FTP_SERVER }}
-        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      uses: genietim/ftp-action@releases/v4
+      with:
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localDir: "dist"
+        remoteDir: "www"
