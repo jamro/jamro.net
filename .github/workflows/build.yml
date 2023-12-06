@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    environment: production
     runs-on: ubuntu-latest
 
     strategy:
@@ -27,8 +28,11 @@ jobs:
         npm install
         npm build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload to FTP
+      uses: wckd/upload-action@v1
       with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+        server: ${{ secrets.FTP_SERVER }} # Define this secret in your repository settings
+        username: ${{ secrets.FTP_USERNAME }} # Define this secret in your repository settings
+        password: ${{ secrets.FTP_PASSWORD }} # Define this secret in your repository settings
+        local-dir: ./dist # The build output is stored in the "dist" folder
+        #remote-dir: /path/to/remote/directory 
