@@ -29,7 +29,7 @@ jobs:
         npm build
 
     - name: Upload to FTP
-      uses: wckd/upload-action@v1
+      uses: softprops/action-ftp-upload@v1
       with:
         server: ${{ secrets.FTP_SERVER }} # Define this secret in your repository settings
         username: ${{ secrets.FTP_USERNAME }} # Define this secret in your repository settings
