@@ -29,10 +29,9 @@ jobs:
         npm build
 
     - name: Upload to FTP
-      uses: GenieTim/ftp-action@v4.0.1
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        host: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }}
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "dist"
-        remoteDir: "www"
+        local-dir: "dist"
