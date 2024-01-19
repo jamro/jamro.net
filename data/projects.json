@@ -34,6 +34,15 @@
       "technologies": ["JavaScript", "Webpack"]
     },
     {
+      "id": "apartments",
+      "name": "Apartments Data Science",
+      "featured": false,
+      "date": "2024",
+      "description": "Analysis of apartments prices based on self-scrapped data. It includes machine learning model to estimate prices based on various apartment characteristics.",
+      "demo": "https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland",
+      "technologies": ["Machine Learning", "Python", "Pandas", "Tensorflow", "Data Scrapping", "Node.js", "Puppeteer"]
+    },
+    {
       "id": "runsnail",
       "name": "Run Snail Game",
       "featured": false,
