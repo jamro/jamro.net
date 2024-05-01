@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "id": "sigma18m",
+      "name": "Sigma 18 Mobile",
+      "featured": true,
+      "date": "2024",
+      "description": "A mobile adaptation of the award-winning Sigma 18 game. Tailored for touch interfaces, this version brings the captivating puzzle mechanics of Sigma 18 to smartphones.",
+      "appStore": "https://apps.apple.com/us/app/sigma-18/id6499455229",
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.jmrlab.sigma18m&hl=en&gl=US",
+      "technologies": ["JavaScript", "PixiJs", "CapacitorJs", "Android", "iOS"]
+    },
+    {
       "id": "deskhud",
       "name": "Desk HUD",
       "featured": true,
@@ -9,7 +19,7 @@
       "repository": "https://github.com/jamro/desk-hud",
       "demo": "https://desk-hud.jmrlab.com/",
       "video": "https://www.youtube.com/watch?v=2UuWsG3Lnaw",
-      "technologies": ["JavaScript", "Webpack", "NodeJS", "Pixi.js", "ExpressJS", "Raspberry PI", "Python"]
+      "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "ExpressJS", "Raspberry PI", "Python"]
     },
     {
       "id": "jsbattle",
@@ -20,12 +30,12 @@
       "repository": "https://github.com/jamro/jsbattle",
       "demo": "https://jsbattle.jmrlab.com/",
       "video": "https://www.youtube.com/watch?v=6_ZErTgGdWE",
-      "technologies": ["JavaScript", "Webpack", "NodeJS", "Pixi.js", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
+      "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
     },
     {
       "id": "sigma18",
       "name": "Sigma 18",
-      "featured": true,
+      "featured": false,
       "date": "2019",
       "description": "My mini game that has won Gynvael's Winter GameDev Challenge 2018/19.",
       "repository": "https://github.com/jamro/sigma18",

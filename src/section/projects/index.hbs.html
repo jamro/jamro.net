@@ -30,6 +30,16 @@
                 <i class="fab fa-youtube"></i>
               </a>
             {{/if}}
+            {{#if this.googlePlay }}
+              <a href="{{ this.googlePlay }}" class="button btn btn-primary btn-circle" target="_blank" title="Google Play" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
+                <i class="fa-brands fa-google-play"></i>
+              </a>
+            {{/if}}
+            {{#if this.appStore }}
+              <a href="{{ this.appStore }}" class="button btn btn-primary btn-circle" target="_blank" title="App Store" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
+                <i class="fa-brands fa-app-store"></i>
+              </a>
+            {{/if}}
             {{#if this.repository }}
               <a href="{{ this.repository }}" class="button btn btn-primary btn-circle" target="_blank" title="Repository" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
                 <i class="fab fa-github"></i>
