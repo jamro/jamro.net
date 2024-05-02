@@ -33,24 +33,22 @@
       "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
     },
     {
-      "id": "sigma18",
-      "name": "Sigma 18",
-      "featured": false,
-      "date": "2019",
-      "description": "My mini game that has won Gynvael's Winter GameDev Challenge 2018/19.",
-      "repository": "https://github.com/jamro/sigma18",
-      "video": "https://www.youtube.com/watch?v=gKZTUN5187s",
-      "demo": "https://sigma18.jmrlab.com/",
-      "technologies": ["JavaScript", "Webpack"]
-    },
-    {
       "id": "apartments",
-      "name": "Apartments Data Science",
+      "name": "Apartments Data Analysis",
       "featured": false,
       "date": "2024",
       "description": "Analysis of apartments prices based on self-scrapped data. It includes machine learning model to estimate prices based on various apartment characteristics.",
       "demo": "https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland",
       "technologies": ["Machine Learning", "Python", "Pandas", "Tensorflow", "Data Scrapping", "Node.js", "Puppeteer"]
+    },
+    {
+      "id": "devjobs",
+      "name": "Dev Jobs Data Analysis",
+      "featured": false,
+      "date": "2024",
+      "description": "Analysis of job offers for software engineers based on self-scrapped data. Including salaries, technologies, and locations trends.",
+      "demo": "https://www.kaggle.com/code/krzysztofjamroz/software-engineers-jobs-in-poland-analysis",
+      "technologies": ["Python", "Pandas", "Data Scrapping", "Node.js", "Puppeteer"]
     },
     {
       "id": "runsnail",
@@ -81,6 +79,17 @@
       "technologies": ["JavaScript", "Webpack"]
     },
     {
+      "id": "sigma18",
+      "name": "Sigma 18",
+      "featured": false,
+      "date": "2019",
+      "description": "My mini game that has won Gynvael's Winter GameDev Challenge 2018/19.",
+      "repository": "https://github.com/jamro/sigma18",
+      "video": "https://www.youtube.com/watch?v=gKZTUN5187s",
+      "demo": "https://sigma18.jmrlab.com/",
+      "technologies": ["JavaScript", "Webpack"]
+    },
+    {
       "id": "oversort",
       "name": "Oversort",
       "featured": false,
@@ -89,7 +98,6 @@
       "repository": "https://github.com/jamro/oversort",
       "technologies": ["Bootstrap", "HAProxy", "JQuery", "Material Design", "Nginx", "ReactJS", "ExpressJS", "NodeJS", "InfluxDB", "MongoDB", "Redis", "Docker", "Vagrant", "VirtualBox", "Fluentd", "Grafana", "Prometheus", "BabelJS", "Webpack", "RabbitMQ", "Swagger"]
     },
-
     {
       "id": "magic_mirror",
       "name": "Magic Mirror",
