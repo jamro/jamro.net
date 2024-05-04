@@ -6,6 +6,7 @@
       "featured": true,
       "date": "2024",
       "description": "A mobile adaptation of the award-winning Sigma 18 game. Tailored for touch interfaces, this version brings the captivating puzzle mechanics of Sigma 18 to smartphones.",
+      "video": "https://www.youtube.com/watch?v=LIbzMkKjPGg",
       "appStore": "https://apps.apple.com/us/app/sigma-18/id6499455229",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.jmrlab.sigma18m&hl=en&gl=US",
       "technologies": ["JavaScript", "PixiJs", "CapacitorJs", "Android", "iOS"]
