@@ -17,7 +17,8 @@
           "Deep Learning Fundamentals",
           "Regression and Classification Models",
           "Computer Vision and Convolutional Neural Networks",
-          "Deep Reinforced Learning"
+          "Deep Reinforced Learning",
+          "Large Language Models"
         ]
       },
       "technology": [
@@ -25,7 +26,7 @@
       ]
     },
     {
-      "id": "guidewire_eng_director",
+      "id": "guidewire_sr_eng_director",
       "type": "job",
       "organization": {
         "name": "Guidewire Software",
@@ -33,7 +34,7 @@
         "logo": "guidewire.png"
       },
       "title": "Senior Director, Engineering",
-      "teamsize": 90,
+      "teamsize": 100,
       "technology": [
         "AWS", "Java", "Kubernetes", "JavaScript", "ReactJS", "Terraform"
       ],
@@ -43,9 +44,42 @@
       "products": [
         "Insurance Systems", "Cloud Platform", "SaaS"
       ],
-      "from": 2019,
+      "from": 2021,
       "to": "2024",
-      "description": "When I joined Guidewire, the company was initiating a cloud transformation, moving from on-premises to SaaS solutions. I led the Kraków engineering teams responsible for developing a crucial part of this shift — the Guidewire Cloud Platform. We transitioned from a prototype to a mainstream product, widely adopted for managing online services by numerous customers. My focus was on adapting to increased scale and demand. I oversaw team growth, organizational adjustments, and enhanced cross-location collaboration. Scaling also involved aligning engineering aspects, like product architecture and the SDLC process, to ensure frequent, large-scale deliveries. ",
+      "description": "I was responsible for developmet of the Guidewire Cloud Console, preparing it for larger scale as the number of customers rapidly grew. This involved increasing self-service features and reducing infrastructure costs. I built an SRE team that collaborated closely with product development teams. I introduced an on-call model to ensure quick resolution of incidents. To improve reliability, I incorporated error budgets into the development process, reducing issues from the product's initial immaturity. Additionally, I acted as site lead for the Kraków office, ensuring smooth operations and integration with the rest of the company.",
+      "details": {
+        "title": "Key responsibilities",
+        "items": [
+          "Responsible for engineering delivery and operations",
+          "Managing cross-site collaboration and ensuring alignment with other development centers of Guidewire",
+          "Support in introduction globally scalable processes",
+          "Work with the local HR, Finance, IT and Facilities team to help develop the center",
+          "Cultivating top talent by driving technical and leadership development"
+        ]
+      }
+    },
+    {
+      "id": "guidewire_eng_director",
+      "type": "job",
+      "organization": {
+        "name": "Guidewire Software",
+        "url": "https://www.guidewire.com/",
+        "logo": "guidewire.png"
+      },
+      "title": "Director, Engineering",
+      "teamsize": 70,
+      "technology": [
+        "AWS", "Java", "Kubernetes", "JavaScript", "ReactJS", "Terraform"
+      ],
+      "locations": [
+        "Poland", "USA", "Ireland"
+      ],
+      "products": [
+        "Insurance Systems", "Cloud Platform", "SaaS"
+      ],
+      "from": 2019,
+      "to": "2021",
+      "description": "When I joined Guidewire, the company was initiating a cloud transformation, transitioning from on-premises to SaaS solutions. I led the Kraków engineering teams working on Guidewire Cloud Console, which enables customers to launch and manage their cloud services independently. After I joined, the Console went from an idea through prototype to a mainstream product. I restructured my team to handle growing demand, streamline priorities, and avoid bottlenecks. I also evolved the system's architecture to distribute work across the organization, allowing other teams to take ownership of specific components end-to-end.",
       "details": {
         "title": "Key responsibilities",
         "items": [
