@@ -38,17 +38,16 @@
       "from": 2012,
       "type": "technology"
     }, {
-      "name": "Change Management",
-      "from": 2013,
-      "type": "management"
-    }, {
       "name": "Strategic Planning",
       "from": 2013,
       "type": "management"
     }, {
+      "name": "Product Development",
+      "from": 2014,
+      "type": "management"
+    }, {
       "name": "Mobile Applications",
-      "from": 2009,
-      "to": 2018,
+      "from": 2015,
       "type": "technology"
     }, {
       "name": "Game Development",
@@ -70,24 +69,9 @@
       "to": 2015,
       "type": "management"
     }, {
-      "name": "Product Development",
-      "from": 2009,
-      "to": 2014,
-      "type": "management"
-    }, {
-      "name": "Process Optimization",
-      "from": 2013,
-      "to": 2017,
-      "type": "management"
-    }, {
       "name": "DevOps / SRE",
       "from": 2019,
       "type": "management"
-    }, {
-      "name": "Enterprise Architecture",
-      "from": 2012,
-      "to": 2015,
-      "type": "technology"
     }, {
       "name": "Machine Learning",
       "from": 2022,

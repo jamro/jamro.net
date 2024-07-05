@@ -1,6 +1,41 @@
 {
   "career": [
     {
+      "id": "olc_eng_director",
+      "type": "job",
+      "organization": {
+        "name": "OLX",
+        "url": "https://www.olxgroup.com/",
+        "logo": "olx.png"
+      },
+      "title": "Director of Engineering",
+      "teamsize": 120,
+      "technology": [
+        "AWS", "Kotlin", "Go", "Kubernetes", "JavaScript", "ReactJS"
+      ],
+      "locations": [
+        "Poland", "Portugal", "Netherlands", "Germany", "Romania"
+      ],
+      "products": [
+        "Classifieds platform", "Online marketplace"
+      ],
+      "from": 2024,
+      "to": "now",
+      "description": "",
+      "details": {
+        "title": "Key responsibilities",
+        "items": [
+          "Define strategy, lead the team, and foster innovation.",
+          "Oversee projects, ensure timely delivery, and align with roadmaps.",
+          "Maintain quality, follow best practices, and stay updated on tech trends.",
+          "Collaborate with teams, update senior management, and represent engineering.",
+          "Work on the product, enhance features, and drive continuous improvement.",
+          "Monitor and improve team performance, conduct reviews, and offer development opportunities.",
+          "Manage budget, optimize costs, and allocate resources efficiently."
+        ]
+      }
+    },
+    {
       "id": "ml_courses",
       "type": "education",
       "organization": {
