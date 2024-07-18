@@ -52,16 +52,6 @@
       "technologies": ["Python", "Pandas", "Data Scrapping", "Node.js", "Puppeteer"]
     },
     {
-      "id": "runsnail",
-      "name": "Run Snail Game",
-      "featured": false,
-      "date": "2022",
-      "description": "A mini-game submitted to the ATZOD contest. The goal of was to creatively answer a question: How does a snail walk?",
-      "repository": "https://github.com/jamro/runsnail",
-      "demo": "https://runsnail.jmrlab.com/",
-      "technologies": ["JavaScript", "PixiJS", "Box2D", "Webpack"]
-    },
-    {
       "id": "nodepad",
       "name": "NodePad",
       "featured": false,
@@ -89,15 +79,6 @@
       "video": "https://www.youtube.com/watch?v=gKZTUN5187s",
       "demo": "https://sigma18.jmrlab.com/",
       "technologies": ["JavaScript", "Webpack"]
-    },
-    {
-      "id": "oversort",
-      "name": "Oversort",
-      "featured": false,
-      "date": "2019",
-      "description": "Let's see how much of over-engineering could be put into a simple app :) A simple sorting feature using as many technologies and tools as I could squeeze.",
-      "repository": "https://github.com/jamro/oversort",
-      "technologies": ["Bootstrap", "HAProxy", "JQuery", "Material Design", "Nginx", "ReactJS", "ExpressJS", "NodeJS", "InfluxDB", "MongoDB", "Redis", "Docker", "Vagrant", "VirtualBox", "Fluentd", "Grafana", "Prometheus", "BabelJS", "Webpack", "RabbitMQ", "Swagger"]
     },
     {
       "id": "magic_mirror",
@@ -133,14 +114,6 @@
       "description": "A robot based on the Zumo platform. It has been equipped with a distance sensor to navigate through the floor, avoiding obstacles. It hangs around, exploring all the nooks and crannies of the apartment.",
       "video": "https://youtu.be/mpiTwNVKCKQ",
       "technologies": ["Arduino"]
-    },
-    {
-      "id": "smart_home",
-      "name": "Smart Home",
-      "featured": false,
-      "date": "2014",
-      "description": "Home monitoring and controlling system based on Raspberry PI. It gathers metrics from various wireless sensors built on the Arduino platform (motion, light, doors, temperature, smoke detector) and tracks them in the cloud dashboards (Grafana running on AWS). The system also controls indoor lights, TV sets, and a magic mirror.",
-      "technologies": ["Arduino", "Raspberry PI", "Python", "Grafana", "MQTT", "InfluxDB"]
     },
     {
       "id": "hyperpath",
