@@ -34,6 +34,15 @@
       "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
     },
     {
+      "id": "brass_thumb_pomodoro",
+      "name": "Brass Thumb Pomodoro",
+      "featured": false,
+      "date": "2024",
+      "description": "A steampunk-inspired Arduino Pomodoro timer, featuring a vintage gauge, mechanical thumb-up signal, and 3D printed components for enhanced productivity.",
+      "repository": "https://github.com/jamro/brass-thumb-pomodoro",
+      "technologies": ["Arduino", "3D Print"]
+    },
+    {
       "id": "apartments",
       "name": "Apartments Data Analysis",
       "featured": false,
