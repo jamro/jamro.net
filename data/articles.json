@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "title": "8 Hacks for Staying Technical as an Engineering Leader",
+      "subtitle": "Keep your technical skills fresh and your team inspired.",
+      "image": "8-hacks-for-staying-technical-as-an-engineering-leader.png",
+      "url": "https://medium.com/@jamro/8-hacks-for-staying-technical-as-an-engineering-leader-4d924102b608"
+    },
+    {
+      "title": "Forget the Buzzwords: Here's What Organisational Culture Really Is",
+      "subtitle": "From Theory to Practice.",
+      "image": "forget-the-buzzwords-heres-what-organisational-culture-really-is.png",
+      "url": "https://medium.com/management-matters/forget-the-buzzwords-heres-what-organisational-culture-really-is-944685703050"
+    },
+    {
+      "title": "7 Public Speaking Hacks from a Introvert",
+      "subtitle": "Why Public Speaking Doesn’t Have to Be Terrifying",
+      "image": "7-public-speaking-hacks-for-introverts.png",
+      "url": "https://medium.com/@jamro/7-public-speaking-hacks-for-introverts-9363b0c2da78"
+    },
+    {
+      "title": "Level Up Your Inbox: Gamifying Zero Email with Apps Script",
+      "subtitle": "How I stayed motivated by turning email clean-up into a game.",
+      "image": "level-up-your-inbox-gamifying-zero-email-with-apps-script.png",
+      "url": "https://medium.com/@jamro/level-up-your-inbox-gamifying-zero-email-with-apps-script-36b622359037"
+    },
+    {
+      "title": "20 Years of Tech Hypes: 4 Lessons for Smarter AI Adoption",
+      "subtitle": "How two decades in tech shaped my approach to AI",
+      "image": "20-years-of-tech-hypes-4-lessons-for-smarter-ai-adoption.png",
+      "url": "https://medium.com/@jamro/20-years-of-tech-hypes-4-lessons-for-smarter-ai-adoption-7bf864d9ca00"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "career": [
     {
-      "id": "olc_eng_director",
+      "id": "olx_eng_director",
       "type": "job",
       "organization": {
         "name": "OLX",
@@ -11,10 +11,10 @@
       "title": "Director of Engineering",
       "teamsize": 120,
       "technology": [
-        "AWS", "Kotlin", "Go", "Kubernetes", "JavaScript", "ReactJS"
+        "AWS", "Go", "Kotlin", "Kubernetes", "Machine Learning", "PHP", "Python", "ReactJS"
       ],
       "locations": [
-        "Poland", "Portugal", "Netherlands", "Germany", "Romania"
+        "Poland", "Portugal", "Netherlands", "Germany", "Romania", "Ukraine", "Spain"
       ],
       "products": [
         "Classifieds platform", "Online marketplace"

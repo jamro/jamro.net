@@ -1,0 +1,52 @@
+<div class="container">
+  <hr/>
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-12">
+      <h2>Articles</h2>
+    </div>
+    <p>
+      A few highlights from my writing.
+    </p>
+  </div>
+  <div class="row">
+    {{#each articles}}
+      <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-4 mb-3">
+        <div class="card" style="min-height: 27em">
+          <a href="{{ this.url }}" target="_blank">
+            <img src="img/articles/{{ this.image }}" class="card-img-top" alt="{{ this.title }}">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ this.title }}</h5>
+            <p class="card-text text-muted mb-0">{{ this.subtitle }}</p>
+            <p class="card-text">{{ this.summary }}</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ this.url }}" class="btn btn-lg btn-primary w-100 text-white" target="_blank">
+              Read More <i class="fas fa-book-open"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+    <!-- read more tile -->
+    <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-4 mb-3">
+      <div class="card" style="min-height: 27em">
+        <a href="{{summary.url.medium }}" target="_blank" style="text-decoration: none;">
+          <div class="card-img-top bg-dark text-white d-flex justify-content-center align-items-center" style="height: 13em;">
+            <i class="fab fa-medium-m fa-5x"></i>
+          </div>
+        </a>
+        <div class="card-body" style="background-color: #f8f9fa;">
+          <h5 class="card-title">Read More</h5>
+          <p class="card-text text-muted mb-0">Full list on Medium</p>
+          <p class="card-text">Click the button below to view all articles on Medium.</p>
+        </div>
+        <div class="card-footer">
+          <a href="{{summary.url.medium }}" class="btn btn-lg btn-dark w-100 text-white" target="_blank">
+            View All <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>  
+      </div>
+    </div>  
+  </div>
+</div>
