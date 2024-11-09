@@ -13,6 +13,7 @@ export default class CareerGraph {
     this.heightMultiplier = 1;
     this.data = new PositionDesription();
     this.workloadOffset = new Workload();
+    this.onClick = () => {}
   }
 
   draw() {
@@ -59,6 +60,7 @@ export default class CareerGraph {
 
     this.svg
       .link('#' + this.data.id)
+      .click(() => this.onClick())
       .polygon(points)
       .fill(this.data.getColor())
       .stroke({ width: this.strokeWidth, color: '#fff' });

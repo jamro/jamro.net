@@ -11,6 +11,7 @@ export default class GraphLabel {
     this.yOffset = 0;
     this.heightMultiplier = 1;
     this.data = new PositionDesription();
+    this.onClick = () => {}
   }
 
   draw() {
@@ -28,6 +29,7 @@ export default class GraphLabel {
 
     let txt = this.svg
       .link('#' + this.data.id)
+      .click(() => this.onClick(this))
       .text(this.data.name)
       .font({ fill: '#000', size: fontSize+"px" })
 
@@ -68,16 +70,19 @@ export default class GraphLabel {
     }
     this.svg
       .link('#' + this.data.id)
+      .click(() => this.onClick(this))
       .line(markerX, markerY, markerX, lineY).stroke({ width: 1 })
     if(lineX !== null) {
       this.svg
         .link('#' + this.data.id)
+        .click(() => this.onClick(this))
         .line(markerX, lineY, lineX, lineY).stroke({ width: 1 })
     }
 
     //marker
     this.svg
       .link('#' + this.data.id)
+      .click(() => this.onClick(this))
       .circle(markerRadius*2)
       .fill('#000')
       .stroke({ width: this.strokeWidth, color: '#fff' })

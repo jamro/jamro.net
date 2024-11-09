@@ -19,6 +19,10 @@ export default class CareerGraph {
     this.upperStack = new GraphStack(this.canvas, this);
     this.bottomStack = new GraphStack(this.canvas, this);
     this.resize(container.offsetWidth);
+
+    this.onClick = () => {}
+    this.upperStack.onClick = (target) => this.onClick(target)
+    this.bottomStack.onClick = (target) => this.onClick(target)
   }
 
   resize(w) {

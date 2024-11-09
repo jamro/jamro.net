@@ -16,10 +16,12 @@ export default class GraphStack {
     this.yOffset = 0;
     this.strokeWidth = 1;
     this.heightMultiplier = 1;
+    this.onClick = () => {}
   }
 
   createArea(description) {
     let area = new GraphArea(this.svg, this.graph);
+    area.onClick = (target) => this.onClick(target)
     area.data = description;
     area.from = this.from;
     area.to = this.to;
@@ -33,6 +35,7 @@ export default class GraphStack {
     this.areas.push(area);
     if(description.hasLabel) {
       let label = new GraphLabel(this.svg, this.graph);
+      label.onClick = (target) => this.onClick(target)
       label.data = description;
       label.from = this.from;
       label.to = this.to;

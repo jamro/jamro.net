@@ -10,7 +10,12 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-12">
+    <div class="col-12" id="timeline">
+      <div id="show-more" class="d-print-none">
+        <a href="javascript:void(0)" id="show-more-link" class="btn btn-primary text-white" style="padding: 1em 5em">
+          Show more experience <i class="fas fa-caret-down"></i>
+        </a>
+      </div>
       <ul class="timeline">
         {{#each career}}
           <li class="{{timeline 'className'}}">
