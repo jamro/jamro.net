@@ -29,7 +29,6 @@
       "date": "2018",
       "description": "JavaScript Programming Game inspired by RoboCode. Code logic of autonomous tank and compete with others in the multi-player league.",
       "repository": "https://github.com/jamro/jsbattle",
-      "demo": "https://jsbattle.jmrlab.com/",
       "video": "https://www.youtube.com/watch?v=6_ZErTgGdWE",
       "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
     },
