@@ -33,6 +33,15 @@
       "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
     },
     {
+      "id": "term800",
+      "name": "Term-800",
+      "featured": false,
+      "date": "2025",
+      "repository": "https://github.com/jamro/term-800",
+      "description": "An AI-powered sysadmin chatbot that lets you manage servers through natural conversation—automating tasks, analyzing systems, and executing commands over SSH.",
+      "technologies": ["Python", "LLM", "OpenAI"]
+    },
+    {
       "id": "brass_thumb_pomodoro",
       "name": "Brass Thumb Pomodoro",
       "featured": false,
