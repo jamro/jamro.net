@@ -17,15 +17,15 @@
         "Poland", "Portugal", "Netherlands", "Germany", "Romania", "Ukraine", "Spain"
       ],
       "products": [
-        "Classifieds platform", "Online marketplace"
+        "Online marketplace", "E-commerce", "Classifieds platform"
       ],
       "from": 2024,
       "to": "now",
-      "description": "",
+      "description": "At OLX, I serve as Director of Engineering with initial responsibility for the Payments and Shipping (P&S) domain. I led the successful finalization of a complex, inherited unification project that standardized key components across markets. Beyond delivery, I continue to contribute to the evolving strategy for P&S to support scalable, cross-regional growth. A few months into the role, I also assumed ownership of the Car Parts category, with a mandate to accelerate its strategic growth. This includes building dedicated tools for car parts sellers, exploring strategic partnerships to strengthen inventory and reach, enhancing findability through compatibility-based search improvements, and tailoring monetization methods to better reflect the specific needs and dynamics of the category.",
       "details": {
         "title": "Key responsibilities",
         "items": [
-          "Define strategy, lead the team, and foster innovation.",
+          "Leading software engineering teams, setting goals, and ensuring alignment with business objectives.",
           "Oversee projects, ensure timely delivery, and align with roadmaps.",
           "Maintain quality, follow best practices, and stay updated on tech trends.",
           "Collaborate with teams, update senior management, and represent engineering.",
