@@ -33,6 +33,15 @@
       "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "Lerna", "ExpressJS", "MongoDB", "Terraform"]
     },
     {
+      "id": "ollie",
+      "name": "Ollie - Corporate Onboarding Assistant",
+      "featured": false,
+      "date": "2024",
+      "description": "An AI-powered assistant built to accelerate my onboarding by answering questions using internal sources like Confluence, Slack, Jira, OpsLevel, and GitLab.",
+      "article": "https://medium.com/ai-in-plain-english/part-1-chatting-with-my-companys-brain-how-i-built-my-ai-knowledge-buddy-dce25b4696ba?sk=de953aae6056a60d6111bd4a6c567ab1",
+      "technologies": ["Python", "LLM", "OpenAI", "Elasticsearch", "Docker"]
+    },
+    {
       "id": "term800",
       "name": "Term-800",
       "featured": false,
@@ -76,15 +85,6 @@
       "description": "A simple tool to manage life cycle of NodeJs apps. It allow to deploy, start/stop and monitor multiple apps via web interface or REST API.",
       "repository": "https://github.com/jamro/nodepad",
       "technologies": ["JavaScript", "NodeJS", "ReactJS", "Webpack", "Swagger", "ExpressJS"]
-    },
-    {
-      "id": "neural",
-      "name": "Neural Tank",
-      "featured": false,
-      "date": "2020",
-      "description": "Evolving a neural network that successfully controls a tank and fights in JsBattle coding game.",
-      "repository": "https://github.com/jamro/neuraltank",
-      "technologies": ["JavaScript", "Webpack"]
     },
     {
       "id": "sigma18",

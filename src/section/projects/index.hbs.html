@@ -45,6 +45,11 @@
                 <i class="fab fa-github"></i>
               </a>
             {{/if}}
+            {{#if this.article }}
+              <a href="{{ this.article }}" class="button btn btn-primary btn-circle" target="_blank" title="Article" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom">
+                <i class="fa-solid fa-newspaper"></i>
+              </a>
+            {{/if}}
           </div>
           <h5 class="card-title" style="margin-bottom: 0">{{ this.name }}</h5>
           <small class="text-muted"><i class="far fa-clock"></i> {{ this.date }}</small></p>
