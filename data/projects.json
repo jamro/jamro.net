@@ -166,6 +166,7 @@
       "date": "2009",
       "description": "That game will test your construction skills. Build a bridge and help your workers to collect items located on the other side of the valley. The game also offers a level designer and a library of community levels, ensuring endless fun.",
       "video": "https://www.youtube.com/watch?v=g8gP2MAk-60",
+      "article": "https://medium.com/javascript-in-plain-english/i-just-wanted-to-play-with-physics-100-million-people-ended-up-playing-my-game-ba717a9756ef",
       "technologies": ["iOS", "Flash", "Box2d", "Pixi", "NodeJS", "AWS"]
     }
   ]
