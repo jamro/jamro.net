@@ -8,6 +8,7 @@
       "description": "A dystopian narrative game where you play a bartender in a surveillance state. Powered by generative AI, Bar 101 creates dialogue, visuals, and voice—offering 100+ unique endings and high replayability with minimal manual content.",
       "demo": "https://bar101.jmrlab.com",
       "repository": "https://github.com/jamro/bar101",
+      "article": "https://medium.com/ai-in-plain-english/how-i-built-an-ai-generated-narrative-game-without-a-team-4ee50fd354bc",
       "technologies": ["JavaScript", "Python", "LLM", "OpenAI", "React", "Pixi.js", "Terraform", "AWS"]
     },
     {
