@@ -37,7 +37,7 @@
       "id": "ollie",
       "name": "Ollie - Corporate Onboarding Assistant",
       "featured": false,
-      "date": "2024",
+      "date": "2025",
       "description": "An AI-powered assistant built to accelerate my onboarding by answering questions using internal sources like Confluence, Slack, Jira, OpsLevel, and GitLab.",
       "article": "https://medium.com/ai-in-plain-english/part-1-chatting-with-my-companys-brain-how-i-built-my-ai-knowledge-buddy-dce25b4696ba?sk=de953aae6056a60d6111bd4a6c567ab1",
       "technologies": ["Python", "LLM", "OpenAI", "Elasticsearch", "Docker"]
