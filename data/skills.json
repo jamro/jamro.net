@@ -64,13 +64,13 @@
       "from": 2017,
       "type": "technology"
     }, {
+      "name": "DevOps / SRE",
+      "from": 2019,
+      "type": "management"
+    }, {
       "name": "Entrepreneurship / Start-ups",
       "from": 2009,
       "to": 2015,
-      "type": "management"
-    }, {
-      "name": "DevOps / SRE",
-      "from": 2019,
       "type": "management"
     }, {
       "name": "Articial Intelligence",

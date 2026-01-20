@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "id": "neural_racer",
+      "name": "Neural Racer",
+      "featured": true,
+      "date": "2026",
+      "description": "A playful simulation where neural networks learn to drive from scratch. NeuralRacer visualizes genetic algorithms in action: evolving cars, emergent behavior, and learning you can see, not just measure.",
+      "video": "https://youtu.be/chu0FHoiJrs",
+      "demo": "https://jamro.github.io/neural-racer/",
+      "repository": "https://github.com/jamro/neural-racer",
+      "technologies": ["Machine Learning", "JavaScript", "Pixi.js", "Neural Networks", "Genetic Algorithms"]
+    },
+    {
+      "id": "yova",
+      "name": "Y.O.V.A.",
+      "featured": true,
+      "date": "2025",
+      "description": "A desk-sized, low-latency voice interface for builders. YOVA gives your AI project ears and a mouth: streaming speech in and out, no lock-in. Plug it into any backend, automate anything, and build your own Jarvis",
+      "repository": "https://github.com/jamro/yova",
+      "article": "https://medium.com/ai-in-plain-english/why-every-ai-builder-needs-a-desk-sized-jarvis-b83eaedb9181",
+      "technologies": ["Python", "LLM", "OpenAI", "Raspberry PI", "3D Print"]
+    },
+    {
       "id": "bar101",
       "name": "Bar 101 Game",
       "featured": true,
@@ -10,28 +31,6 @@
       "repository": "https://github.com/jamro/bar101",
       "article": "https://medium.com/ai-in-plain-english/how-i-built-an-ai-generated-narrative-game-without-a-team-4ee50fd354bc",
       "technologies": ["JavaScript", "Python", "LLM", "OpenAI", "React", "Pixi.js", "Terraform", "AWS"]
-    },
-    {
-      "id": "sigma18m",
-      "name": "Sigma 18 Mobile",
-      "featured": true,
-      "date": "2024",
-      "description": "A mobile adaptation of my mini game that has won Gynvael's Winter GameDev Challenge 2018/19. Tailored for touch interfaces, this version brings the captivating puzzle mechanics of Sigma 18 to smartphones.",
-      "video": "https://www.youtube.com/watch?v=LIbzMkKjPGg",
-      "appStore": "https://apps.apple.com/us/app/sigma-18/id6499455229",
-      "googlePlay": "https://play.google.com/store/apps/details?id=com.jmrlab.sigma18m&hl=en&gl=US",
-      "technologies": ["JavaScript", "PixiJs", "CapacitorJs", "Android", "iOS"]
-    },
-    {
-      "id": "deskhud",
-      "name": "Desk HUD",
-      "featured": true,
-      "date": "2023",
-      "description": "A handy side monitor with a touch screen that helps stay organized, control smart devices, and access essential features like a todo list and calendar right from your desk.",
-      "repository": "https://github.com/jamro/desk-hud",
-      "demo": "https://desk-hud.jmrlab.com/",
-      "video": "https://www.youtube.com/watch?v=2UuWsG3Lnaw",
-      "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "ExpressJS", "Raspberry PI", "Python"]
     },
     {
       "id": "ollie",
@@ -50,6 +49,17 @@
       "repository": "https://github.com/jamro/term-800",
       "description": "An AI-powered sysadmin chatbot that lets you manage servers through natural conversation—automating tasks, analyzing systems, and executing commands over SSH.",
       "technologies": ["Python", "LLM", "OpenAI"]
+    },
+    {
+      "id": "sigma18m",
+      "name": "Sigma 18 Mobile",
+      "featured": false,
+      "date": "2024",
+      "description": "A mobile adaptation of my mini game that has won Gynvael's Winter GameDev Challenge 2018/19. Tailored for touch interfaces, this version brings the captivating puzzle mechanics of Sigma 18 to smartphones.",
+      "video": "https://www.youtube.com/watch?v=LIbzMkKjPGg",
+      "appStore": "https://apps.apple.com/us/app/sigma-18/id6499455229",
+      "googlePlay": "https://play.google.com/store/apps/details?id=com.jmrlab.sigma18m&hl=en&gl=US",
+      "technologies": ["JavaScript", "PixiJs", "CapacitorJs", "Android", "iOS"]
     },
     {
       "id": "brass_thumb_pomodoro",
@@ -77,6 +87,17 @@
       "description": "Analysis of job offers for software engineers based on self-scrapped data. Including salaries, technologies, and locations trends.",
       "demo": "https://www.kaggle.com/code/krzysztofjamroz/software-engineers-jobs-in-poland-analysis",
       "technologies": ["Python", "Pandas", "Data Scrapping", "Node.js", "Puppeteer"]
+    },
+    {
+      "id": "deskhud",
+      "name": "Desk HUD",
+      "featured": false,
+      "date": "2023",
+      "description": "A handy side monitor with a touch screen that helps stay organized, control smart devices, and access essential features like a todo list and calendar right from your desk.",
+      "repository": "https://github.com/jamro/desk-hud",
+      "demo": "https://desk-hud.jmrlab.com/",
+      "video": "https://www.youtube.com/watch?v=2UuWsG3Lnaw",
+      "technologies": ["JavaScript", "Webpack", "NodeJS", "PixiJs", "ExpressJS", "Raspberry PI", "Python"]
     },
     {
       "id": "nodepad",
