@@ -9,6 +9,7 @@
       "video": "https://youtu.be/chu0FHoiJrs",
       "demo": "https://jamro.github.io/neural-racer/",
       "repository": "https://github.com/jamro/neural-racer",
+      "article": "https://medium.com/javascript-in-plain-english/neuralracer-1-the-joy-of-watching-an-algorithm-figure-things-out-30c1eb2006b4",
       "technologies": ["Machine Learning", "JavaScript", "Pixi.js", "Neural Networks", "Genetic Algorithms"]
     },
     {
