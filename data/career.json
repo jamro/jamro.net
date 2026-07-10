@@ -21,12 +21,12 @@
       ],
       "from": 2024,
       "to": "now",
-      "description": "At OLX, I serve as Director of Engineering with initial responsibility for the Payments and Shipping (P&S) domain. I led the successful finalization of a complex, inherited unification project that standardized key components across markets. Beyond delivery, I continue to contribute to the evolving strategy for P&S to support scalable, cross-regional growth. A few months into the role, I also assumed ownership of the Car Parts category, with a mandate to accelerate its strategic growth. This includes building dedicated tools for car parts sellers, exploring strategic partnerships to strengthen inventory and reach, enhancing findability through compatibility-based search improvements, and tailoring monetization methods to better reflect the specific needs and dynamics of the category.",
+      "description": "At OLX, I serve as Director of Engineering for the Goods, Car Parts, and Pay & Ship domains. I led the completion of a complex, inherited Pay & Ship unification program, standardizing key components across markets and unlocking scaling on all markets. I also continue to help shape the domain strategy with product and business leadership. I later assumed responsibility for the Car Parts category, with a mandate to accelerate growth through dedicated seller tools, strategic partnerships, improved compatibility-based search, and category-specific monetization. During a product leadership transition, I partially covered product leadership responsibilities, maintaining strategic direction, prioritization, and continuity across the portfolio.",
       "details": {
         "title": "Key responsibilities",
         "items": [
-          "Leading software engineering teams, setting goals, and ensuring alignment with business objectives.",
-          "Delivered on platforms with ARR of $150M+, balancing scale, quality, and speed.",
+          "Leading product development teams, setting goals, and ensuring alignment with business objectives.",
+          "Delivered on platforms with 90M MAU and revenue of $150M+, balancing scale, quality, and speed.",
           "Maintain quality, follow best practices, and stay updated on tech trends.",
           "Collaborate with teams, update senior management, and represent engineering.",
           "Work on the product, enhance features, and drive continuous improvement.",
@@ -41,10 +41,12 @@
       "organization": {
         "name": "Coursera, Udacity, ..."
       },
-      "title": "Machine Learning Online Courses",
+      "title": "Immersive Machine Learning Study",
+ 
       "from": 2023,
       "to": 2023,
-      "description": "During a sabbatical break, I explored the world of AI and delved into machine learning courses. My goal was to gain a deep understanding of the inner workings and truly comprehend how machine learning functions.",
+      "description": "During a sabbatical break, I undertook an intense series of machine learning courses to rapidly build a strong foundation in AI. This accelerated learning experience provided me with practical and theoretical fundamentals, setting me up for further growth and specialization in AI and machine learning.",
+ 
       "details": {
         "title": "Details",
         "items": [
